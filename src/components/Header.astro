@@ -1,16 +1,18 @@
 ---
+import { sitePath } from '../utils/paths';
+
 const navigation = [
-	{ label: 'About', href: '/#about' },
-	{ label: 'Admission', href: '/#admission' },
-	{ label: 'Projects', href: '/#projects' },
-	{ label: 'Posts', href: '/posts/' },
-	{ label: 'Access', href: '/#access' },
+	{ label: 'About', href: sitePath('#about') },
+	{ label: 'Admission', href: sitePath('#admission') },
+	{ label: 'Projects', href: sitePath('#projects') },
+	{ label: 'Posts', href: sitePath('posts/') },
+	{ label: 'Access', href: sitePath('#access') },
 ];
 ---
 
 <header class="site-header">
 	<div class="container site-header__inner">
-		<a class="site-title" href="/">OHSHIMA LAB.</a>
+		<a class="site-title" href={sitePath()}>OHSHIMA LAB.</a>
 		<nav aria-label="メインナビゲーション">
 			<ul class="site-nav">
 				{navigation.map((item) => <li><a href={item.href}>{item.label}</a></li>)}

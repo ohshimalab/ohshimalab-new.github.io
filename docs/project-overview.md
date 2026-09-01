@@ -22,6 +22,8 @@
 - 静的ファイル: `public/`
 - デプロイ先: GitHub Pagesを第一候補とする
 
+現在の試験公開先は `https://ohshimalab.github.io/ohshimalab-new.github.io/` とし、Astroの `base` を `/ohshimalab-new.github.io` に設定する。最終的にリポジトリを `ohshimalab.github.io` へ切り替える際は `base` を削除し、ルートURLで公開する。
+
 ## 現在の状態
 
 Astroの最小構成から開始した段階。現在はトップページにAstroの初期表示があるだけで、研究室サイトのページやデザインは未実装である。

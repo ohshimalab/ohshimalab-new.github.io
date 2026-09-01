@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sitePath } from '../../utils/paths';
 import { getVisiblePosts } from '../../utils/posts';
 
 export async function getStaticPaths() {
@@ -29,7 +30,7 @@ const dateFormatter = new Intl.DateTimeFormat('ja-JP', {
 	<article class="post">
 		<header class="post__header">
 			<div class="container post__header-inner">
-				<a class="post__back" href="/posts/">← 記事一覧</a>
+				<a class="post__back" href={sitePath('posts/')}>← 記事一覧</a>
 				{post.data.draft && <p class="draft-notice">開発環境だけに表示される下書きです</p>}
 				<h1>{post.data.title}</h1>
 				<p>{post.data.description}</p>

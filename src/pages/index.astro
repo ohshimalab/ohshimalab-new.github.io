@@ -1,13 +1,15 @@
 ---
 import PostList from '../components/PostList.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { sitePath } from '../utils/paths';
 import { getVisiblePosts } from '../utils/posts';
 
 const latestPosts = (await getVisiblePosts()).slice(0, 5);
+const heroImage = `url('${sitePath('media/question-mark.jpg')}')`;
 ---
 
 <BaseLayout>
-	<section class="hero" aria-labelledby="site-heading">
+	<section class="hero" aria-labelledby="site-heading" style={`--hero-image: ${heroImage}`}>
 		<div class="hero__shade"></div>
 		<div class="container hero__content">
 			<p>兵庫県立大学 <a href="https://www.u-hyogo.ac.jp/gsis/">情報科学研究科</a></p>
@@ -48,7 +50,7 @@ const latestPosts = (await getVisiblePosts()).slice(0, 5);
 		<div class="container posts">
 			<h2 class="section-title">記事</h2>
 			<PostList posts={latestPosts} />
-			{latestPosts.length > 0 && <p class="posts__more"><a href="/posts/">すべての記事を見る</a></p>}
+			{latestPosts.length > 0 && <p class="posts__more"><a href={sitePath('posts/')}>すべての記事を見る</a></p>}
 		</div>
 	</section>
 
@@ -68,7 +70,7 @@ const latestPosts = (await getVisiblePosts()).slice(0, 5);
 </BaseLayout>
 
 <style>
-	.hero { position: relative; display: grid; min-height: clamp(25rem, 50vw, 43rem); place-items: center; color: #fff; background: #171717 url('/media/question-mark.jpg') center / cover no-repeat; }
+	.hero { position: relative; display: grid; min-height: clamp(25rem, 50vw, 43rem); place-items: center; color: #fff; background-color: #171717; background-image: var(--hero-image); background-position: center; background-size: cover; background-repeat: no-repeat; }
 	.hero__shade { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.18); }
 	.hero__content { position: relative; text-align: center; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.65); }
 	.hero__content p { margin: 0 0 1rem; font-size: clamp(1.2rem, 3vw, 2rem); font-weight: 300; }
