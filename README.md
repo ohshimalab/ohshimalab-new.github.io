@@ -1,4 +1,8 @@
-# Astro Starter Kit: Minimal
+# 大島研究室 Astroサイト
+
+プロジェクトの目的、現在の状態、設計方針は [docs/project-overview.md](docs/project-overview.md) を参照してください。
+
+このREADMEの以下の内容は、Astro標準テンプレートの開発コマンド・構成説明です。
 
 ```sh
 npm create astro@latest -- --template minimal

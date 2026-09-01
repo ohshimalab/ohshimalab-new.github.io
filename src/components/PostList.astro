@@ -1,0 +1,52 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+	posts: CollectionEntry<'posts'>[];
+	emptyMessage?: string;
+}
+
+const { posts, emptyMessage = '現在、公開中の記事はありません。' } = Astro.props;
+const dateFormatter = new Intl.DateTimeFormat('ja-JP', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+---
+
+{posts.length > 0 ? (
+	<ul class="post-list">
+		{posts.map((post) => (
+			<li>
+				<a href={`/posts/${post.id}/`}>
+					<time datetime={post.data.publishedDate.toISOString()}>{dateFormatter.format(post.data.publishedDate)}</time>
+					<h3>{post.data.title} {post.data.draft && <span class="draft-badge">下書き</span>}</h3>
+					<p>{post.data.description}</p>
+				</a>
+			</li>
+		))}
+	</ul>
+) : (
+	<div class="empty-state">
+		<p>新しいサイトの記事は、ここから始まります。</p>
+		<small>{emptyMessage}</small>
+	</div>
+)}
+
+<style>
+	.post-list { margin: 0; padding: 0; border-top: 1px solid var(--color-border); list-style: none; }
+	.post-list li { border-bottom: 1px solid var(--color-border); }
+	.post-list a { display: grid; grid-template-columns: 9rem 1fr; gap: 0.15rem 2rem; padding: 1.6rem 0; color: var(--color-heading); text-decoration: none; }
+	.post-list time { grid-row: 1 / 3; color: var(--color-muted); font-size: 0.88rem; }
+	.post-list h3 { margin: 0; font-size: 1.12rem; font-weight: 500; }
+	.draft-badge { display: inline-block; margin-left: 0.5rem; padding: 0.12rem 0.45rem; color: #8a4b08; background: #fff0d5; border: 1px solid #e7c68f; border-radius: 0.2rem; font-size: 0.7rem; font-weight: 600; vertical-align: 0.15em; }
+	.post-list p { margin: 0.2rem 0 0; color: var(--color-body); font-size: 0.94rem; }
+	.post-list a:hover h3 { color: var(--color-primary); }
+	.empty-state { padding: 2.75rem 1rem; text-align: center; border-block: 1px solid var(--color-border); }
+	.empty-state p { margin: 0 0 0.25rem; color: var(--color-heading); font-size: 1.08rem; }
+	.empty-state small { color: var(--color-muted); }
+	@media (max-width: 38rem) {
+		.post-list a { grid-template-columns: 1fr; gap: 0.35rem; }
+		.post-list time { grid-row: auto; }
+	}
+</style>

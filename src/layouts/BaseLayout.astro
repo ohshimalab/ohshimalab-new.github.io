@@ -1,0 +1,41 @@
+---
+import Header from '../components/Header.astro';
+import '../styles/global.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+	title = '大島裕明研究室',
+	description = '兵庫県立大学大学院 情報科学研究科 大島裕明研究室のウェブサイトです。',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content={description} />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<title>{title}</title>
+	</head>
+	<body>
+		<a class="skip-link" href="#main-content">本文へ移動</a>
+		<Header />
+		<main id="main-content"><slot /></main>
+		<footer class="site-footer">
+			<div class="container site-footer__inner">
+				<div>
+					<p class="site-footer__name">大島裕明研究室</p>
+					<p>兵庫県立大学大学院 情報科学研究科</p>
+				</div>
+				<p><small>&copy; {new Date().getFullYear()} Ohshima Laboratory</small></p>
+			</div>
+		</footer>
+	</body>
+</html>
