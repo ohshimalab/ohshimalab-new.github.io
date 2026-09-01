@@ -1,6 +1,6 @@
 # 大島研究室 Astroサイト
 
-プロジェクトの目的、現在の状態、設計方針は [docs/project-overview.md](docs/project-overview.md) を参照してください。
+プロジェクトの目的と設計方針は [docs/project-overview.md](docs/project-overview.md)、現在の進捗と保留事項は [docs/development-status.md](docs/development-status.md) を参照してください。
 
 このREADMEの以下の内容は、Astro標準テンプレートの開発コマンド・構成説明です。
 
