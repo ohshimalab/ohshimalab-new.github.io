@@ -4,7 +4,7 @@ description: 大島研究室のウェブサイトを新しくしました。
 publishedDate: 2026-09-01
 tags:
   - お知らせ
-draft: true
+draft: false
 ---
 
 大島研究室のウェブサイトをリニューアルしました。
