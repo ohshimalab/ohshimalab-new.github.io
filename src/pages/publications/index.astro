@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { journalPapers, internationalConferences } from '../../data/publications';
+---
+
+<BaseLayout title="研究成果 | 大島裕明研究室" description="大島裕明研究室の研究成果（学術論文、国際会議録）の一覧です。">
+	<header class="page-header">
+		<div class="container">
+			<p>Publications</p>
+			<h1>研究成果</h1>
+		</div>
+	</header>
+
+	<section class="publications-section">
+		<div class="container publications-container">
+			<nav class="publications-toc" aria-label="研究成果目次">
+				<ul>
+					<li>
+						<a href="#journals">
+							学術論文（査読あり）
+							<span class="count">({journalPapers.length}件)</span>
+						</a>
+					</li>
+					<li>
+						<a href="#conferences">
+							国際会議録（査読あり）
+							<span class="count">({internationalConferences.length}件)</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<section class="pub-group" id="journals">
+				<h2 class="pub-group__title">学術論文（査読あり）</h2>
+				<ol class="pub-list">
+					{journalPapers.map((paper) => (
+						<li class="pub-list__item">{paper}</li>
+					))}
+				</ol>
+			</section>
+
+			<section class="pub-group" id="conferences">
+				<h2 class="pub-group__title">国際会議録（査読あり）</h2>
+				<ol class="pub-list">
+					{internationalConferences.map((paper) => (
+						<li class="pub-list__item">{paper}</li>
+					))}
+				</ol>
+			</section>
+		</div>
+	</section>
+</BaseLayout>
+
+<style>
+	.page-header {
+		padding-block: clamp(3.5rem, 7vw, 5.5rem);
+		background: var(--color-soft);
+		text-align: center;
+	}
+
+	.page-header p {
+		margin: 0 0 0.3rem;
+		color: var(--color-primary);
+		font-size: 0.85rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+
+	.page-header h1 {
+		margin: 0;
+		color: var(--color-heading);
+		font-size: clamp(2rem, 5vw, 3rem);
+		font-weight: 400;
+	}
+
+	.publications-section {
+		padding-block: clamp(3rem, 6vw, 5rem);
+	}
+
+	.publications-container {
+		max-width: 900px;
+	}
+
+	.publications-toc {
+		margin-bottom: 3.5rem;
+		padding: 1.25rem 1.5rem;
+		background: var(--color-soft);
+		border-radius: 8px;
+	}
+
+	.publications-toc ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem 2rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.publications-toc a {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.publications-toc a:hover {
+		text-decoration: underline;
+	}
+
+	.publications-toc .count {
+		color: var(--color-muted);
+		font-size: 0.9em;
+		font-weight: 400;
+	}
+
+	.pub-group {
+		scroll-margin-top: 5.5rem;
+		margin-bottom: 4rem;
+	}
+
+	.pub-group__title {
+		margin: 0 0 1.5rem;
+		padding-bottom: 0.6rem;
+		color: var(--color-heading);
+		font-size: clamp(1.4rem, 2.8vw, 1.8rem);
+		font-weight: 600;
+		border-bottom: 2px solid var(--color-primary);
+	}
+
+	.pub-list {
+		margin: 0;
+		padding-left: 1.8rem;
+	}
+
+	.pub-list__item {
+		margin-bottom: 1.2rem;
+		color: var(--color-body);
+		font-size: 0.98rem;
+		line-height: 1.75;
+		text-align: justify;
+	}
+
+	.pub-list__item::marker {
+		color: var(--color-muted);
+		font-weight: 600;
+	}
+
+	@media (max-width: 48rem) {
+		.publications-toc ul {
+			flex-direction: column;
+			gap: 0.6rem;
+		}
+
+		.pub-list {
+			padding-left: 1.4rem;
+		}
+
+		.pub-list__item {
+			text-align: left;
+		}
+	}
+</style>
+

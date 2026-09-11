@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { thesisSections } from '../data/theses';
+---
+
+<BaseLayout title="学位論文 | 大島研究室" description="大島研究室の博士論文、修士論文、卒業論文の一覧です。">
+	<div class="page-heading">
+		<div class="container">
+			<h1>学位論文</h1>
+			<p>大島研究室に所属した学生の博士論文、修士論文、卒業論文を掲載しています。</p>
+		</div>
+	</div>
+
+	<div class="container thesis-page">
+		<nav class="section-links" aria-label="学位論文の種類">
+			<ul>
+				{thesisSections.map((section) => <li><a href={`#${section.id}`}>{section.heading}</a></li>)}
+			</ul>
+		</nav>
+
+		{thesisSections.map((section) => (
+			<section class="thesis-section" id={section.id}>
+				<h2>{section.heading}</h2>
+				<div class="table-scroll" tabindex="0" role="region" aria-label={`${section.heading}の一覧`}>
+					<table>
+						<thead>
+							<tr>
+								<th scope="col">発行年</th>
+								<th scope="col">氏名</th>
+								<th scope="col">論文タイトル</th>
+							</tr>
+						</thead>
+						<tbody>
+							{section.items.map((thesis) => (
+								<tr>
+									<td>{thesis.year}</td>
+									<td>{thesis.author}</td>
+									<td>
+										{thesis.url ? <a href={thesis.url} target="_blank" rel="noopener noreferrer">{thesis.title}<span class="visually-hidden">（外部サイト）</span></a> : thesis.title}
+									</td>
+								</tr>
+							))}
+						</tbody>
+					</table>
+				</div>
+			</section>
+		))}
+	</div>
+</BaseLayout>
+
+<style>
+	.page-heading { padding-block: clamp(3rem, 7vw, 5rem); background: var(--color-soft); text-align: center; }
+	.page-heading h1 { margin: 0 0 0.75rem; color: var(--color-heading); font-size: clamp(2rem, 5vw, 3rem); font-weight: 500; }
+	.page-heading p { max-width: 42rem; margin: 0 auto; }
+	.thesis-page { max-width: 1000px; padding-block: clamp(3rem, 7vw, 5rem); }
+	.section-links ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+	.section-links a { font-weight: 600; }
+	.thesis-section { padding-top: 4rem; scroll-margin-top: 4.5rem; }
+	.thesis-section:first-of-type { padding-top: 3rem; }
+	.thesis-section h2 { margin: 0 0 1.25rem; color: var(--color-heading); font-size: 1.7rem; font-weight: 500; }
+	.table-scroll { overflow-x: auto; border: 1px solid var(--color-border); border-radius: 0.35rem; }
+	table { width: 100%; min-width: 46rem; border-collapse: collapse; line-height: 1.55; }
+	th, td { padding: 0.85rem 1rem; border-bottom: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+	th { color: var(--color-heading); background: var(--color-soft); font-size: 0.9rem; font-weight: 600; }
+	tbody tr:last-child td { border-bottom: 0; }
+	th:first-child, td:first-child { width: 6rem; white-space: nowrap; }
+	th:nth-child(2), td:nth-child(2) { width: 10rem; white-space: nowrap; }
+	.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+	@media (max-width: 40rem) {
+		.page-heading { text-align: left; }
+		.section-links ul { justify-content: flex-start; }
+		.thesis-section { padding-top: 3rem; }
+	}
+</style>
