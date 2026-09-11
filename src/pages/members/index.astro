@@ -1,0 +1,638 @@
+﻿---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+interface FacultyMember {
+	title: string;
+	name: string;
+}
+
+interface StudentMember {
+	grade: string;
+	name: string;
+}
+
+interface AlumMember {
+	year: string;
+	degree: string;
+	name: string;
+}
+
+const faculty: FacultyMember[] = [
+	{ title: '准教授', name: '大島 裕明 （Hiroaki OHSHIMA）' },
+];
+
+const students: StudentMember[] = [
+	{ grade: 'D3', name: '高橋 克郎 （Katsurou TAKAHASHI）' },
+	{ grade: 'D2', name: '桑田 若菜 （Wakana KUWATA）' },
+	{ grade: 'M2', name: '上田 健斗 （Kento UEDA）' },
+	{ grade: 'M2', name: '木下 真帆 （Maho KINOSHITA）' },
+	{ grade: 'M2', name: '内藤 洋輝 （Hiroki NAITO）' },
+	{ grade: 'M2', name: '中村 嵩 （Takeshi NAKAMURA）' },
+	{ grade: 'M1', name: '島内 健志 （Kenji SHIMAUCHI）' },
+	{ grade: 'M1', name: '徐 广铖 （Guangcheng XU）' },
+	{ grade: 'M1', name: '仲村 優徳 （Masanori NAKAMURA）' },
+	{ grade: 'M1', name: '松本 美風 （Mifu MATSUMOTO）' },
+	{ grade: 'B4', name: '池上 和規 （Kazuki IKEGAMI）' },
+	{ grade: 'B4', name: '粕谷 俊介 （Shunsuke KASUYA）' },
+	{ grade: 'B4', name: '下地 鴻明 （Koumei SHIMOJI）' },
+	{ grade: 'B4', name: '松崎 悠佑 （Yusuke MATSUZAKI）' },
+	{ grade: 'B4', name: '松村 優冶 （Yuya MATSUMURA）' },
+];
+
+const workingStudents: StudentMember[] = [
+	{ grade: 'D3', name: '橋口 友哉 （Tomoya HASHIGUCHI）' },
+];
+
+const researchStudents = [
+	'梁 皓然 （Haoran LIANG）',
+	'呉 寒 （Han WU）',
+];
+
+const alumni: AlumMember[] = [
+	{ year: '2026.3', degree: '博士', name: '奥田 萌莉 （Moeri OKUDA）' },
+	{ year: '2026.3', degree: '博士', name: 'ファム フーロン （HuuLong PHAM）' },
+	{ year: '2026.3', degree: '修士', name: '黒木 空翔 （Tsubasa KUROKI）' },
+	{ year: '2026.3', degree: '修士', name: '中西 勇輝 （Yuki NAKANISHI）' },
+	{ year: '2026.3', degree: '修士', name: '中山 裕紀 （Yuki NAKAYAMA）' },
+	{ year: '2026.3', degree: '修士', name: '門垣 幸樹 （Koki MONGAKI）' },
+	{ year: '2026.3', degree: '学士', name: '岡田 敦生 （Atsuki OKADA）' },
+	{ year: '2026.3', degree: '学士', name: '河野 心斗 （Shinto KONO）' },
+	{ year: '2026.3', degree: '学士', name: '島内 健志 （Kenji SHIMAUCHI）' },
+	{ year: '2026.3', degree: '学士', name: '松本 美風 （Mifu MATSUMOTO）' },
+	{ year: '2026.3', degree: '学士', name: '村上 耀紀 （Akinori MURAKAMI）' },
+	{ year: '2025.9', degree: '学士', name: '高田 純和 （Ayato TAKATA）' },
+	{ year: '2025.3', degree: '博士', name: '三林 亮太 （Ryota MIBAYASHI）' },
+	{ year: '2025.3', degree: '博士', name: '森川 優 （Yu MORIKAWA）' },
+	{ year: '2025.3', degree: '修士', name: '芦澤 亜里紗 （Arisa ASHIZAWA）' },
+	{ year: '2025.3', degree: '修士', name: '桑田 若菜 （Wakana KUWATA）' },
+	{ year: '2025.3', degree: '修士', name: '中屋 岳 （Gaku NAKAYA）' },
+	{ year: '2025.3', degree: '修士', name: '狹間 亮太朗 （Ryotaro HAZAMA）' },
+	{ year: '2025.3', degree: '修士', name: '花谷 翔 （Sho HANATANI）' },
+	{ year: '2025.3', degree: '修士', name: '眞鍋 陽向 （Hinata MANABE）' },
+	{ year: '2025.3', degree: '学士', name: '上田 健斗 （Kento UEDA）' },
+	{ year: '2025.3', degree: '学士', name: '上村 悠斗 （Haruto UEMURA）' },
+	{ year: '2025.3', degree: '学士', name: '木下 真帆 （Maho KINOSHITA）' },
+	{ year: '2025.3', degree: '学士', name: '山口 貴也 （Takaya YAMAGUCHI）' },
+	{ year: '2024.3', degree: '修士', name: '伊藤 優真 （Yuma ITO）' },
+	{ year: '2024.3', degree: '修士', name: '髙嶋 優快 （Masayoshi TAKASHIMA）' },
+	{ year: '2024.3', degree: '修士', name: '張 雯佳 （Wenjia ZHANG）' },
+	{ year: '2024.3', degree: '修士', name: '津田 裕哉 （Yuya TSUDA）' },
+	{ year: '2024.3', degree: '修士', name: '西本 海生 （Kaisei NISHIMOTO）' },
+	{ year: '2024.3', degree: '修士', name: '日置 淳也 （Junya HIOKI）' },
+	{ year: '2024.3', degree: '学士', name: '奥田 颯馬 （Soma OKUDA）' },
+	{ year: '2024.3', degree: '学士', name: '常松 大雅 （Taiga TSUNEMATSU）' },
+	{ year: '2024.3', degree: '学士', name: '中西 勇輝 （Yuki NAKANISHI）' },
+	{ year: '2024.3', degree: '学士', name: '中山 裕紀 （Yuki NAKAYAMA）' },
+	{ year: '2024.3', degree: '学士', name: '門垣 幸樹 （Koki MONGAKI）' },
+	{ year: '2023.3', degree: '修士', name: '奥田 萌莉 （Moeri OKUDA）' },
+	{ year: '2023.3', degree: '修士', name: '古屋 昭拓 （Akihiro FURUYA）' },
+	{ year: '2023.3', degree: '修士', name: '王 丹 （Dan WANG）' },
+	{ year: '2023.3', degree: '学士', name: '芦澤 亜里紗 （Arisa ASHIZAWA）' },
+	{ year: '2023.3', degree: '学士', name: '桑田 若菜 （Wakana KUWATA）' },
+	{ year: '2023.3', degree: '学士', name: '狹間 亮太朗 （Ryotaro HAZAMA）' },
+	{ year: '2023.3', degree: '学士', name: '花谷 翔 （Sho HANATANI）' },
+	{ year: '2023.3', degree: '学士', name: '眞鍋 陽向 （Hinata MANABE）' },
+	{ year: '2022.3', degree: '修士', name: '松本 直彰 （Naoaki MATSUMOTO）' },
+	{ year: '2022.3', degree: '修士', name: '吉村 拓真 （Takuma YOSHIMURA）' },
+	{ year: '2022.3', degree: '修士', name: '上田 昌輝 （Masaki UETA）' },
+	{ year: '2022.3', degree: '修士', name: '濵島 聡一郎 （Soichiro HAMAJIMA）' },
+	{ year: '2022.3', degree: '修士', name: '川原 敬史 （Takafumi KAWAHARA）' },
+	{ year: '2022.3', degree: '修士', name: '坂根 和光 （Wakou SAKANE）' },
+	{ year: '2022.3', degree: '修士', name: '福島 航平 （Kohei FUKUSHIMA）' },
+	{ year: '2022.3', degree: '修士', name: '三林 亮太 （Ryota MIBAYASHI）' },
+	{ year: '2021.3', degree: '修士', name: '中田 祐誠 （Yusei NAKATA）' },
+	{ year: '2021.3', degree: '修士', name: '橋口 友哉 （Tomoya HASHIGUCHI）' },
+	{ year: '2021.3', degree: '修士', name: '崔 洙瑚 （Suho CHOI）' },
+	{ year: '2021.3', degree: '修士', name: '顧 席銘 （Ximing GU）' },
+	{ year: '2021.3', degree: '修士', name: 'ファム フーロン （HuuLong PHAM）' },
+	{ year: '2020.3', degree: '修士', name: '牧田 真朋 （Maho MAKITA）' },
+	{ year: '2020.3', degree: '修士', name: '西村 和貴 （Kazuki NISHIMURA）' },
+	{ year: '2020.3', degree: '修士', name: 'マハルジャン ラビン （Rabin MAHARJAN）' },
+	{ year: '2020.3', degree: '修士', name: '堂本 凌祐 （Ryosuke DOMOTO）' },
+	{ year: '2020.3', degree: '修士', name: '村本 直樹 （Naoki MURAMOTO）' },
+	{ year: '2020.3', degree: '修士', name: '楊 澤華 （Zehua YANG）' },
+	{ year: '2020.3', degree: '修士', name: '吉井 健紘 （Takehiro YOSHII）' },
+	{ year: '2019.3', degree: '修士', name: '白髪 宙海 （Hiromi SHIRAGA）' },
+];
+
+const formerResearchStudents = [
+	'李 金瀟 （Jinxiao LI）',
+];
+
+const careerDestinations = [
+	'株式会社アイレップ',
+	'KDDI株式会社',
+	'コベルコシステム株式会社',
+	'白髪医院',
+	'Sky株式会社',
+	'スカイウィル株式会社',
+	'株式会社セラク',
+	'株式会社デンソーテン',
+	'パーソルパナソニックHRパートナーズ株式会社',
+	'株式会社エスユーエス',
+	'株式会社指月電機製作所',
+	'株式会社ウイルテック',
+	'ビッグローブ株式会社',
+	'ムラタシステム株式会社',
+	'株式会社NTTデータ関西',
+	'株式会社グッドニュース',
+	'株式会社日立社会情報サービス',
+	'日本アイ・ビー・エム株式会社',
+	'ウイングアーク1st株式会社',
+	'株式会社ナノコネクト',
+	'兵庫県立大学',
+	'神戸大学',
+	'株式会社日立ソリューションズ',
+	'みずほリサーチ&テクノロジーズ株式会社',
+	'ユニオンエタニティ株式会社',
+];
+
+const domesticUniversities = [
+	'兵庫県立大学社会情報科学部',
+	'兵庫県立大学工学部',
+	'兵庫県立大学環境人間学部',
+	'甲南大学知能情報学部',
+	'甲南大学理工学部',
+	'流通科学大学経済学部',
+	'大阪工業大学',
+	'関西大学',
+	'関西学院大学',
+	'近畿大学',
+	'神戸女学院大学',
+	'鳥取大学',
+	'広島市立大学',
+	'島根大学',
+];
+
+function splitName(fullName: string) {
+	const match = fullName.match(/^(.+?)\s*（(.+?)）$/);
+	if (match) {
+		return { ja: match[1], en: match[2] };
+	}
+	return { ja: fullName, en: '' };
+}
+---
+
+<BaseLayout title="研究室メンバー | 大島裕明研究室" description="大島裕明研究室の教員、学生、卒業生・修了生、進路などのメンバー情報です。">
+	<header class="page-header">
+		<div class="container">
+			<p>Members</p>
+			<h1>研究室メンバー</h1>
+		</div>
+	</header>
+
+	<div class="container members-container">
+		<!-- 目次ナビゲーション -->
+		<nav class="page-nav" aria-label="ページ内目次">
+			<ul class="page-nav__list">
+				<li><a href="#faculty">教員</a></li>
+				<li><a href="#students">学生</a></li>
+				<li><a href="#working-students">社会人学生</a></li>
+				<li><a href="#research-students">研究生</a></li>
+				<li><a href="#alumni">卒業生・修了生</a></li>
+				<li><a href="#former-research-students">元研究生</a></li>
+				<li><a href="#careers">就職先</a></li>
+				<li><a href="#universities">修士入学者の出身大学（国内）</a></li>
+			</ul>
+		</nav>
+
+		<div class="members-content">
+			<!-- 教員 -->
+			<section class="member-section" id="faculty">
+				<div class="section-header">
+					<h2>教員</h2>
+					<span class="section-badge">{faculty.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table">
+						<thead>
+							<tr>
+								<th style="width: 25%;">役職</th>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{faculty.map((f) => {
+								const parsed = splitName(f.name);
+								return (
+									<tr>
+										<td>{f.title}</td>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 学生 -->
+			<section class="member-section" id="students">
+				<div class="section-header">
+					<h2>学生</h2>
+					<span class="section-badge">{students.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table">
+						<thead>
+							<tr>
+								<th style="width: 25%;">学年</th>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{students.map((s) => {
+								const parsed = splitName(s.name);
+								return (
+									<tr>
+										<td>{s.grade}</td>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 社会人学生 -->
+			<section class="member-section" id="working-students">
+				<div class="section-header">
+					<h2>社会人学生</h2>
+					<span class="section-badge">{workingStudents.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table">
+						<thead>
+							<tr>
+								<th style="width: 25%;">学年</th>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{workingStudents.map((s) => {
+								const parsed = splitName(s.name);
+								return (
+									<tr>
+										<td>{s.grade}</td>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 研究生 -->
+			<section class="member-section" id="research-students">
+				<div class="section-header">
+					<h2>研究生</h2>
+					<span class="section-badge">{researchStudents.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table">
+						<thead>
+							<tr>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{researchStudents.map((name) => {
+								const parsed = splitName(name);
+								return (
+									<tr>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 卒業生・修了生 -->
+			<section class="member-section" id="alumni">
+				<div class="section-header">
+					<h2>卒業生・修了生</h2>
+					<span class="section-badge">{alumni.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table alumni-table">
+						<thead>
+							<tr>
+								<th style="width: 24%; text-align: center;">卒業・修了年月</th>
+								<th style="width: 18%; text-align: center;">学位</th>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{alumni.map((a) => {
+								const parsed = splitName(a.name);
+								return (
+									<tr>
+										<td style="text-align: center;" class="cell-muted">{a.year}</td>
+										<td style="text-align: center;">{a.degree}</td>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 元研究生 -->
+			<section class="member-section" id="former-research-students">
+				<div class="section-header">
+					<h2>元研究生</h2>
+					<span class="section-badge">{formerResearchStudents.length} 名</span>
+				</div>
+				<div class="table-wrapper">
+					<table class="member-table">
+						<thead>
+							<tr>
+								<th>氏名</th>
+							</tr>
+						</thead>
+						<tbody>
+							{formerResearchStudents.map((name) => {
+								const parsed = splitName(name);
+								return (
+									<tr>
+										<td>
+											<span class="name-ja">{parsed.ja}</span>
+											{parsed.en && <span class="name-en">({parsed.en})</span>}
+										</td>
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- 就職先 -->
+			<section class="member-section" id="careers">
+				<div class="section-header">
+					<h2>就職先</h2>
+				</div>
+				<div class="chips-container">
+					{careerDestinations.map((item) => (
+						<div class="chip">
+							<span class="chip-dot"></span>
+							<span>{item}</span>
+						</div>
+					))}
+				</div>
+			</section>
+
+			<!-- 出身大学 -->
+			<section class="member-section" id="universities">
+				<div class="section-header">
+					<h2>修士入学者の出身大学（国内）</h2>
+				</div>
+				<div class="chips-container">
+					{domesticUniversities.map((item) => (
+						<div class="chip">
+							<span class="chip-dot"></span>
+							<span>{item}</span>
+						</div>
+					))}
+				</div>
+			</section>
+		</div>
+	</div>
+</BaseLayout>
+
+<style>
+	/* ページヘッダー（postsページ等と統一） */
+	.page-header {
+		padding-block: clamp(3.5rem, 7vw, 5.5rem);
+		background: var(--color-soft);
+		text-align: center;
+	}
+
+	.page-header p {
+		margin: 0 0 0.3rem;
+		color: var(--color-primary);
+		font-size: 0.85rem;
+		font-weight: 600;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+	}
+
+	.page-header h1 {
+		margin: 0;
+		color: var(--color-heading);
+		font-size: clamp(2rem, 5vw, 3rem);
+		font-weight: 400;
+	}
+
+	/* コンテナレイアウト */
+	.members-container {
+		max-width: 900px;
+		padding-block: clamp(3rem, 6vw, 5rem);
+	}
+
+	/* 目次ナビゲーション（左アクセントバーのリストスタイル） */
+	.page-nav {
+		margin-bottom: 3.5rem;
+		padding: 1.25rem 1.5rem;
+		background: var(--color-soft);
+		border-left: 4px solid var(--color-primary);
+		border-radius: 4px;
+	}
+
+	.page-nav__list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem 1.5rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.page-nav__list a {
+		font-size: 0.95rem;
+		font-weight: 500;
+		color: var(--color-primary);
+		text-decoration: none;
+	}
+
+	.page-nav__list a:hover {
+		color: var(--color-primary-dark);
+		text-decoration: underline;
+	}
+
+	/* コンテンツセクション */
+	.members-content {
+		display: flex;
+		flex-direction: column;
+		gap: 3.75rem;
+	}
+
+	.member-section {
+		scroll-margin-top: 5.5rem;
+	}
+
+	.section-header {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		margin-bottom: 1.25rem;
+		padding-bottom: 0.5rem;
+		border-bottom: 2px solid var(--color-border);
+	}
+
+	.section-header h2 {
+		margin: 0;
+		color: var(--color-heading);
+		font-size: 1.4rem;
+		font-weight: 600;
+	}
+
+	.section-badge {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--color-muted);
+		background: var(--color-soft);
+		padding: 0.2rem 0.6rem;
+		border-radius: 4px;
+	}
+
+	/* レスポンシブ対応テーブル（横スクロール） */
+	.table-wrapper {
+		width: 100%;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		background: #ffffff;
+		border: 1px solid var(--color-border);
+		border-radius: 6px;
+	}
+
+	.member-table {
+		width: 100%;
+		min-width: 460px;
+		border-collapse: collapse;
+		font-size: 0.95rem;
+		text-align: left;
+	}
+
+	.alumni-table {
+		min-width: 520px;
+	}
+
+	.member-table th {
+		padding: 0.85rem 1.2rem;
+		background-color: var(--color-soft);
+		color: var(--color-heading);
+		font-size: 0.88rem;
+		font-weight: 600;
+		border-bottom: 1px solid var(--color-border);
+		white-space: nowrap;
+	}
+
+	.member-table td {
+		padding: 0.85rem 1.2rem;
+		border-bottom: 1px solid var(--color-border);
+		vertical-align: middle;
+	}
+
+	.member-table tbody tr:last-child td {
+		border-bottom: none;
+	}
+
+	.member-table tbody tr {
+		transition: background-color 0.15s ease;
+	}
+
+	.member-table tbody tr:hover {
+		background-color: #fafafa;
+	}
+
+	/* 名前のタイポグラフィ */
+	.name-ja {
+		font-weight: 600;
+		color: var(--color-heading);
+		margin-right: 0.4rem;
+	}
+
+	.name-en {
+		font-size: 0.86rem;
+		color: var(--color-muted);
+		font-weight: 400;
+	}
+
+	.cell-muted {
+		color: var(--color-muted);
+		font-size: 0.9rem;
+		font-variant-numeric: tabular-nums;
+	}
+
+	/* チップ（就職先・大学一覧） */
+	.chips-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.65rem;
+	}
+
+	.chip {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.5rem 0.85rem;
+		background: #ffffff;
+		border: 1px solid var(--color-border);
+		border-radius: 4px;
+		font-size: 0.9rem;
+		color: var(--color-body);
+		transition: border-color 0.15s ease, background-color 0.15s ease;
+	}
+
+	.chip:hover {
+		border-color: #cbd5e1;
+		background-color: #fafafa;
+	}
+
+	.chip-dot {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: var(--color-primary);
+		flex-shrink: 0;
+	}
+
+	/* レスポンシブ表示 */
+	@media (max-width: 48rem) {
+		.page-nav__list {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		.member-table th,
+		.member-table td {
+			padding: 0.75rem 0.85rem;
+		}
+
+		.chip {
+			font-size: 0.85rem;
+			padding: 0.4rem 0.7rem;
+		}
+	}
+</style>
