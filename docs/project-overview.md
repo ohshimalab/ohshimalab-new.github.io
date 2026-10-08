@@ -72,12 +72,12 @@ Astroの最小構成から開始した段階。現在はトップページにAst
 
 ### 記事slugのルール
 
-- 記事ファイル名は `YYYY-MM-DD-short-english-description.md` 形式とする
+- 記事は `src/content/posts/YYYY/YYYY-MM-DD-short-english-description/index.md` に保存し、画像も同じ記事フォルダーに置く
 - 日付と単語の区切りには、すべてハイフンを使用する
 - 英語部分は小文字の半角英数字で簡潔に記述する
-- ファイル名の日付と `publishedDate` を一致させる
+- 記事フォルダー名の日付と `publishedDate` を一致させる
 - 同日に類似記事がある場合は、人名やイベント名を加えて区別する
-- 公開後のslug（ファイル名）は原則として変更しない
+- 公開URLは `/posts/YYYY-MM-DD-short-english-description/` とし、保存用の年フォルダーは含めない。公開後のslug（記事フォルダー名）は原則として変更しない
 - `draft: true` の記事は開発環境のみで表示し、本番ビルドから除外する
 
 ## 開発コマンド

@@ -1,0 +1,2729 @@
+{
+  "repository": "https://github.com/ohshimalab/ohshimalab.github.io",
+  "commit": "8cbccb4beab6b842354d036e8ac700eda2399b09",
+  "records": [
+    {
+      "source": "content/post/2018/0623/index.md",
+      "sourceSha256": "62bf41d38e092f6efe60ea586e69f6c1f2b75192ca9c22811fa8f67449f50456",
+      "slug": "2018-06-23-soc2018",
+      "date": "2018-06-23",
+      "title": "SoC2018において学生奨励賞を受賞",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "c7c55fd30401cb7a4b4e2c4bad11351ef413bbe06f13c9293ee1f9aca938cb8d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/0629/index.md",
+      "sourceSha256": "b42b39333eb20ba413f990a3788bc871d5a5c8dd9706900c4dacdc8ca4a38a56",
+      "slug": "2018-06-29-lab-news",
+      "date": "2018-06-29",
+      "title": "Newホワイトボード！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "2530cec3788c0b82e3289f09cb2778c951ee5ac99df5e65a0d4689b513810997"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/0914/index.md",
+      "sourceSha256": "819ba80c41929dc6900471e554d565cb0be806dd96451e87094a3c610ff2e09e",
+      "slug": "2018-09-14-lab-news",
+      "date": "2018-09-14",
+      "title": "第3回神戸情報科学キャンパスシンポジウム～",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/presentation0.jpg",
+          "sha256": "e19a4d43b2309e1cdb0b60f0f3595602b1918154fb8ffb1ec9c1a96d22a45a24"
+        },
+        {
+          "name": "gallery/presentation1.jpg",
+          "sha256": "fc81d4c9322dd10e5964438a4527a7d6aaeae923c03eda7860f73ef98c8c42c5"
+        },
+        {
+          "name": "gallery/presentation2.jpg",
+          "sha256": "eec834eea9758b7f2c31544d5c7c6759b9e6d45c77b1e090bda15203b2803fc6"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "e19a4d43b2309e1cdb0b60f0f3595602b1918154fb8ffb1ec9c1a96d22a45a24"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/0918/index.md",
+      "sourceSha256": "8ccc28f116604af9b6817ed04799bafab0db5dc120958d0179e3cca09b303357",
+      "slug": "2018-09-18-webdb",
+      "date": "2018-09-18",
+      "title": "WebDB Forum 2018において楽天株式会社賞・学生奨励賞を受賞",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/poster.jpg",
+          "sha256": "ba49841025bd9b6b47e2ad08849629bc6892163cca209a215346c35d02b95837"
+        },
+        {
+          "name": "gallery/presentation.jpg",
+          "sha256": "6ba20bc664ba59171d208c677ed465e1e6b18224006229ff3a392ecdb0ba9b9a"
+        },
+        {
+          "name": "gallery/rakuten.jpg",
+          "sha256": "57219aebf3eb0aa5a9ca86a57c8cc3ca14120f3746e54a47a0e841bbeaf5d57d"
+        },
+        {
+          "name": "gallery/student.jpg",
+          "sha256": "b0028fb9ccc5350f2dd98102bbdc8602a88214141a783fdb7798a2c8a01c69a5"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "57219aebf3eb0aa5a9ca86a57c8cc3ca14120f3746e54a47a0e841bbeaf5d57d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/1101/index.md",
+      "sourceSha256": "c74a16cd73de5e88ce74c427c0142b28695160f26334281eebb23099586b8fb7",
+      "slug": "2018-11-01-lab-news",
+      "date": "2018-11-01",
+      "title": "デスクがやってきました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/step1.jpg",
+          "sha256": "1d7cb061042f4aad396e9feda405b5d5f5d1e82249f2ff7da5239ee4f1648f20"
+        },
+        {
+          "name": "gallery/step2.jpg",
+          "sha256": "d4eb18a9868fe27fd86365a193d659ec835d3efc9f65ad595a863c6171da936f"
+        },
+        {
+          "name": "gallery/step3.jpg",
+          "sha256": "4bb4f5d513a0d1908e2cdec67c19a11d7175bd397e8d2ac64b2e26c68489715c"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "1d7cb061042f4aad396e9feda405b5d5f5d1e82249f2ff7da5239ee4f1648f20"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/1204/index.md",
+      "sourceSha256": "50870ac89280377b2383984bf20780ed57a4543780f5768d219257134cc09f22",
+      "slug": "2018-12-04-lab-news",
+      "date": "2018-12-04",
+      "title": "甲南大灘本研，静岡大山本研，大島研合同研究会",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/(0).jpg",
+          "sha256": "7dec4e734e06651c4d52134219720f66480fa7c9d9df84a157f9243e087201af"
+        },
+        {
+          "name": "gallery/(1).jpg",
+          "sha256": "d13ccfa3674067924950413c675465866f65c0f886a8c1b4cf2ad73d1a83c897"
+        },
+        {
+          "name": "gallery/(2).jpg",
+          "sha256": "5638ef25a3afad8627a52946d9e86ae0b83572724dce4c0fa48f89b9ebe444f2"
+        },
+        {
+          "name": "gallery/(3).jpg",
+          "sha256": "ce39d098c46e30aed34eb49ba83ff0bbdb4817fbd82c33fc0d3b16d178b4fb48"
+        },
+        {
+          "name": "gallery/(4).jpg",
+          "sha256": "49fee5f87990490eed1a03ded8278dff6181424e6dd57c9e85ccf79c8181cdcb"
+        },
+        {
+          "name": "gallery/(5).jpg",
+          "sha256": "83e2e58c78872f5be14b4a1d8372c53294a25dfe88cdd3e37ba9b67c85f480f7"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "d13ccfa3674067924950413c675465866f65c0f886a8c1b4cf2ad73d1a83c897"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2018/1207/index.md",
+      "sourceSha256": "f8ff8a88b442dc2f76355a157ff36a9294ae09b4d1a3c5cea184566d5f325c1a",
+      "slug": "2018-12-07-lab-news",
+      "date": "2018-12-07",
+      "title": "企業実践的ＡＩ（人工知能）利活用研究会 リレーセミナー",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/(0).jpg",
+          "sha256": "3916e70ec5fc3f29e3365678b5b207bae5efe23c8c9d39f78064372ca86e43ff"
+        },
+        {
+          "name": "gallery/(1).jpg",
+          "sha256": "23987ab945f75d6f5aed7b34ec268ec0986ddb330f8389e337cb58a44498f237"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "23987ab945f75d6f5aed7b34ec268ec0986ddb330f8389e337cb58a44498f237"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2019/0306/index.md",
+      "sourceSha256": "caed073fb170dfda456149dc0f3fcd89e2264fbebc0ac68dbc5df76aad6724cc",
+      "slug": "2019-03-06-deim2019",
+      "date": "2019-03-06",
+      "title": "DEIM2019で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/01.jpg",
+          "sha256": "0c28aa968b0f1ef3067e5ffbae4402ba538eda06a5b5b6f4558d0d8853edddc0"
+        },
+        {
+          "name": "gallery/02.jpg",
+          "sha256": "a80b05c2871b45a839e44eb00661817198b2fe4a00a7cdaa3b2d6aa7bc26d409"
+        },
+        {
+          "name": "gallery/03.jpg",
+          "sha256": "6c4ddb8e67085ede2ec10b0ae6ebcdcf8f936f4cde4ab3631c17787e60ee5259"
+        },
+        {
+          "name": "gallery/04.jpg",
+          "sha256": "0392f0bcb5dd930cc0ea2ad0114c0917c3245d2215b608fe5c4cd79269289b17"
+        },
+        {
+          "name": "gallery/05.jpg",
+          "sha256": "ffb63aad08a819d64315fbf4cb5558a2519c24bc1604518af48001070c5d9977"
+        },
+        {
+          "name": "gallery/06.jpg",
+          "sha256": "72a8bc313b5711626dc008b9ba96d759b7790628ccfdbfb35bf466039dac6491"
+        },
+        {
+          "name": "gallery/07.jpg",
+          "sha256": "7459a2e43122101241007a938bcaa5862aa5b23c2250fb344b94b2a9e7939621"
+        },
+        {
+          "name": "gallery/08.jpg",
+          "sha256": "b959b632df82a52f6151d134a7ad289053dc90095893fe13dee4c05065fcfd43"
+        },
+        {
+          "name": "gallery/09.jpg",
+          "sha256": "66d44d3aba34a6e0ee57668c11307ffce5749c8f4af0e9cf621b03f0656338ae"
+        },
+        {
+          "name": "gallery/10.jpg",
+          "sha256": "d3ca304a56f580214f498e2636c2187a8ce4984377ea8b2f9c3ef8ed10c8d277"
+        },
+        {
+          "name": "gallery/11.jpg",
+          "sha256": "21d52d48a5bfa4aae77f47109c4931fc0beb8a9d290c5d23bcbafec79734cc4b"
+        },
+        {
+          "name": "gallery/12.jpg",
+          "sha256": "d2127605a0a9036ee603241179a3cb7a5d8eff416495eba5e6a0d44cfcc33a91"
+        },
+        {
+          "name": "gallery/13.jpg",
+          "sha256": "a8cde9385b55ec66de2f651f23ff86b9b9a37f0189acb803f39f8026fa5a5adc"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "f56c6257b8a2d7cbf31a22d13a864395a008d09b81b6f3202a1d6bebdb2c9185"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2019/0923-1/index.md",
+      "sourceSha256": "0cbd14e578e35e9a5c9ce9f1844c459f39836bc2375f93e00868ae27d7c71a22",
+      "slug": "2019-09-23-lab-news",
+      "date": "2019-09-23",
+      "title": "高橋さんがDE/DBS/IFAT合同研究会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/award.jpg",
+          "sha256": "d19cdc20b177266518b76674989222e88839e954d95f7f7a41fe5090b0861443"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "d19cdc20b177266518b76674989222e88839e954d95f7f7a41fe5090b0861443"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2019/0923-2/index.md",
+      "sourceSha256": "ef6669fd9927112c9af54e40f87ceb1f3910f2c5d0d8fa959fed656e2d6d03ce",
+      "slug": "2019-09-23-lab-news-0923-2",
+      "date": "2019-09-23",
+      "title": "村本さん、ラビンさん、吉井さんが「2019年度 情報処理学会関西支部 支部大会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "gallery/award.jpg",
+          "sha256": "18a9d54c751c3a3d83801762e508f307ab08624e2775a5dae3170428dd228f9f"
+        },
+        {
+          "name": "gallery/muramoto.jpg",
+          "sha256": "40b0a3707b7876f0f6ded195feb64233874b1e848d12cf89accc1d46c9673901"
+        },
+        {
+          "name": "gallery/rabin.jpg",
+          "sha256": "41eaa99ddaef88cfdb32c0eec2fa08b70eebd04d7fae1fdebf0594eb95f49f36"
+        },
+        {
+          "name": "gallery/yoshii.jpg",
+          "sha256": "011dd1633e936a35a8fa9660870bc07a7de0974ec1c2dea24ffda93f0edf2162"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "18a9d54c751c3a3d83801762e508f307ab08624e2775a5dae3170428dd228f9f"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2020/0304/index.md",
+      "sourceSha256": "015c9465a66cebda47e3a39f9844d5845ac7dd09d1d4775dad2f1ef2c845cda7",
+      "slug": "2020-03-04-deim2020",
+      "date": "2020-03-04",
+      "title": "大島研のメンバーがDEIM2020で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2020/0731/index.md",
+      "sourceSha256": "d7f459789219ecea9e98cf4da3691304c6ec79177cb479a46478ae4583201a7e",
+      "slug": "2020-07-31-lab-news",
+      "date": "2020-07-31",
+      "title": "松本直彰さんが第139回情報基礎とアクセス技術研究発表会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "3a80f4a8aa1a336a373b0b6166e39db7c274bfdf31a0487f20ece82ba20233fa"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2020/1210/index.md",
+      "sourceSha256": "46169705caf444a1d598e708de70eca9c8a6540100fddf8672c6efba7a2c6b6f",
+      "slug": "2020-12-10-ntcir",
+      "date": "2020-12-10",
+      "title": "吉村さんと三林さんがThe 15th NTCIR Conferenceで発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "Screenshot from 2021-01-13 16-54-44.png",
+          "sha256": "ffabb2971e2e62bb5d7ee49d41545b7d546ec3dbe0170b0b926d326e26cce874"
+        },
+        {
+          "name": "uhai.png",
+          "sha256": "62182d6c6121bab6d6c0ff65758decb1310b62efbad376b0dc0bcb75ab68e4c3"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "5d3f68a95af6113892259a205af462111a11461e17d8c4e197e9ad404a59cee7"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2020/1218/index.md",
+      "sourceSha256": "231cb3c312952c152f7660a5510895971aa98e27c622361bb9aa4e5307dcd91e",
+      "slug": "2020-12-18-wiss-2020",
+      "date": "2020-12-18",
+      "title": "三林亮太さんが WISS 2020 で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "ae5e200dc6df186002a1a29f37b87fd5d50dd28f210bc45bc067cea42af21d36"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0101/index.md",
+      "sourceSha256": "641998cbf2b7b7e5360aa1514e1fe44c698d2c2e103e0cc147de0376b7e5a04d",
+      "slug": "2021-01-01-lab-news",
+      "date": "2021-01-01",
+      "title": "橋口友哉さんと中田祐誠さんの論文誌が採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2021/0203/index.md",
+      "sourceSha256": "cf3d9c99528bd5bff927bdf722431d72ad248a87122aa83fe5af2c9cb3e129e0",
+      "slug": "2021-02-03-lab-news",
+      "date": "2021-02-03",
+      "title": "鬼は外、福は内",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "8f6787ca0255705ce42e0d366d6d6dc21869d130fc569d7f8e256b650ebef458"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0303/index.md",
+      "sourceSha256": "9a3318348f7f61b8c49b3788a30bf8a7149c894e34233fd0e4804cfd64fa62f8",
+      "slug": "2021-03-03-deim2021",
+      "date": "2021-03-03",
+      "title": "大島研究室のメンバーがDEIM2021で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "DEIM2021ueta.jpg",
+          "sha256": "2d31d2662bd0dcd0b194318901e09c44ad9ceb36c9d4fc4f3bf8064a47b95bda"
+        },
+        {
+          "name": "deim_2021_award_mibayashi.jpg",
+          "sha256": "347060523166a77550d404f6f3b16970e1356e471df39d94558aec50fb4aa9d2"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "ecfbb1a5cc47ec6e20b1b86fbaeb39bc0fc6d1622910f593b2336b40d8e60106"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0324/index.md",
+      "sourceSha256": "c78523632f3363888042be73b64d17334f706444b0daa495e8e25d50ba55f855",
+      "slug": "2021-03-24-lab-news",
+      "date": "2021-03-24",
+      "title": "卒業生を送る会",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "DSC_0483.JPG",
+          "sha256": "ac15997e338864b804b2f0b53b8eaf402cb91b0019f7f9f168906951f1d6a490"
+        },
+        {
+          "name": "DSC_0484.JPG",
+          "sha256": "01035e4960e97f932bde445b9f50dee94cb2f2806d405cc9c08bfc3a7450d392"
+        },
+        {
+          "name": "DSC_0486.JPG",
+          "sha256": "77e1cbea3f08e4e6ddecccd5263f586ebfdc57c9aae1dffba55154f3c8e09690"
+        },
+        {
+          "name": "DSC_0487.JPG",
+          "sha256": "c5f6fb4d2fee4e713cf5fc16fbae07b27b57f82d81697240e4634c3676a6b42c"
+        },
+        {
+          "name": "DSC_0577.JPG",
+          "sha256": "b57802d8a8ebdbc51cd505b59ebd27a51231df4cd759fd87d503bf0266de8355"
+        },
+        {
+          "name": "DSC_0587.JPG",
+          "sha256": "e5ba66fbd5890a4021a0ef2d8953b0c1770dc745bde082c94e1be762d9f12a3c"
+        },
+        {
+          "name": "DSC_0592.JPG",
+          "sha256": "e08a4b34dc653eb39061be06ecda7e2b3d014dd6534389795d7dbc2be9ee494c"
+        },
+        {
+          "name": "IMG_1957.JPG",
+          "sha256": "884a375f287f99bc41d2f86edfc638d1013a73cc1d95e3a49281f8ccd24c50d7"
+        },
+        {
+          "name": "DSC_0561.JPG",
+          "sha256": "e18c868769badc83547227dcf7a1649c83fa9b1db4a010aed4c5c837cc202a6e"
+        },
+        {
+          "name": "DSC_0571.JPG",
+          "sha256": "c2c7eb8d5039c790ab2b336981744c615106aa6411b2ece6227c624b6f2515fd"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "48df83ef8f1f0a832d82d541b05dd7d64004df808f5d27ffa908b45d3880c671"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0630/index.md",
+      "sourceSha256": "41404dc9f30f2f89d938080e8e43c074f93b49a6f6e032f7e0a564a1f30e3f86",
+      "slug": "2021-06-30-lab-news",
+      "date": "2021-06-30",
+      "title": "川嶋研、大島研、湯本研、山本研の合同研究会",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "IMG_0005.JPG",
+          "sha256": "f424e36c6dd14bd7f6170c981d74af9252d7ce6deafe19a8e695d15cf40f6fa0"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "a122a877b7cbbe0b4826106bc09ad6cd28ca3cb010e30065def3a934b1b0abbf"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0716/index.md",
+      "sourceSha256": "a3c729c61a9b32019665e106545cb6bcb4c59a6487bf5c54ef9cda1e893e2c9d",
+      "slug": "2021-07-16-aai-2021",
+      "date": "2021-07-16",
+      "title": "濵島 聡一郎さんが AAI 2021 で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "26c980433a0b6ed193666b1ec71440e1f25c3b4c3d481478436f960f9dc2ec11"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0721/index.md",
+      "sourceSha256": "7c1d017a2abe4b1ce89c24dc3818c6ce6bf39be55dcff892f4881df0750c2d0a",
+      "slug": "2021-07-21-lab-news",
+      "date": "2021-07-21",
+      "title": "大島研、Dürst研の合同研究会",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "IMG_20210721_141616.jpg",
+          "sha256": "6644246c5c70fe20499abd90cc9a65bdce58d9b5a0a6dcdcfcf61536af702e61"
+        },
+        {
+          "name": "IMG_20210721_143215.jpg",
+          "sha256": "fba7c4bfa5671f729a554a1b1751522d11cf63cb84b633345507b470b72320d7"
+        },
+        {
+          "name": "IMG_20210721_162553.jpg",
+          "sha256": "24c98e69647dd098509efeb9e5a725e42d32c9cfef313118934b5304abb536de"
+        },
+        {
+          "name": "IMG_20210721_164936.jpg",
+          "sha256": "cad6573b177da8632e448f179266ad24e361af102b6f31b7da8a2e54e39e8e4d"
+        },
+        {
+          "name": "IMG_20210721_165819.jpg",
+          "sha256": "6e4f55c83c640cc3662e5eb37d9dbb5f58c5f3d8d9360ac0a1bfb870195da9d6"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "b5069d2d0ca04fc96d1d52bd4409e79c0ae4945ee427d4b4f8e8c40ef4983f60"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0831/index.md",
+      "sourceSha256": "7414f25cfe1d31c6b60c8ded048f0464339eb068d4971a3666dd3f770f8e27a0",
+      "slug": "2021-08-31-lab-news",
+      "date": "2021-08-31",
+      "title": "三林亮太さんがYANSで発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2021/0906/index.md",
+      "sourceSha256": "c43eaf5afb0c359470dee02bf785f853d78743837575b131e83697018a0b7159",
+      "slug": "2021-09-06-dbws-2021",
+      "date": "2021-09-06",
+      "title": "大島研のメンバーが東海関西DBWS 2021で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "final.png",
+          "sha256": "8a1df6b0bb67516f17241ae01bd34a53493624329b00d369d9749863f10f043e"
+        },
+        {
+          "name": "dbws_img0.png",
+          "sha256": "b69f2bcc8b4cb5e4e5cacb2fd1b9d8cf84cd6a0aab56b54f234c261901f534fd"
+        },
+        {
+          "name": "dbws_img2.png",
+          "sha256": "b8dd9c5dc4b82e7e8f83490efe61de7f6902b96bccf05989de59f80e7a2b0bc3"
+        },
+        {
+          "name": "IMG_20211001_160140.jpg",
+          "sha256": "7d063acf316fe6ad3cba63fb294db95255ebd50cab0f1b90d7402964221f6bdd"
+        },
+        {
+          "name": "IMG_20211001_160252.jpg",
+          "sha256": "ade3c3b7bc87cb6cacd12c76b97d937ba16bc91915545bcf1b5f5933a808ed85"
+        },
+        {
+          "name": "最優秀学生プレゼンテーション賞.png",
+          "sha256": "4b3f65bea5db095b67c18a6bdd31a3be40149a289bfffa206b242598032c8edc"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "ce6f4093b8231a89b999b4dc0ec7f18aff59cc3fbac110641ef3f70885f94fb1"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0917/index.md",
+      "sourceSha256": "0ede277181f6c595335e8e479299f3edde2eb91ce8f551196d485e17828b49dc",
+      "slug": "2021-09-17-lab-news",
+      "date": "2021-09-17",
+      "title": "松本直彰さんがDE/DBS/IFAT合同研究会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "slide.png",
+          "sha256": "274e3a0027480ef4e8d1b5bf84e076bce128ba8d0bfc1198325f6430d01061f6"
+        },
+        {
+          "name": "IMG_20211001_160515.jpg",
+          "sha256": "c136556aa29800b7fee67a9f5b27ea4d9c1d2e59e1b62875b12a044c2f8d8dc7"
+        },
+        {
+          "name": "IMG_20211001_160533.jpg",
+          "sha256": "0794ae32ab0211948be3fa88fc80d898574682c2c92157f2d715c9d6c5838b6a"
+        },
+        {
+          "name": "学生奨励賞_松本.png",
+          "sha256": "b10cd48735b1a89e26ae423e7112377260fca2d0e9241d5c9ecdb46970eacfaa"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "ebfa2b4385fa8d3226c86b6894a1af2b0acb2989ec4c9d73b460687368574a69"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/0929/index.md",
+      "sourceSha256": "aa0e7a928a30c8548b1892f6d5106ccc078109a8fbdcb9f1c7aec42c2431551e",
+      "slug": "2021-09-29-lab-news",
+      "date": "2021-09-29",
+      "title": "川嶋研究室、大島研究室、湯本研究室、山本研究室の4研究室で合同研究会を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img1.png",
+          "sha256": "8ecf3068c5470d7226c88a87926acff2368edf6b5f9447cba6aa2e15b8c91ff4"
+        },
+        {
+          "name": "img2.png",
+          "sha256": "2d77403b74b1e3bce9e7d05225b4b3f45b233c023d3abe5666ae07264bbed28c"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "e63bab0799caa389a72f87534beafc1a0a5568e1755cad6b1ce7cc9b10e91d61"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1029/index.md",
+      "sourceSha256": "7e40e65682fae94e57891d2dbc326cb7b9dd4397cd540b7343d29f1c18b4c2f1",
+      "slug": "2021-10-29-lab-news",
+      "date": "2021-10-29",
+      "title": "懇親会を行いました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "538cff219b28c725411f4452f6a58398fc8bde3b5a3698e41345a020d0d01ba5"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1030/index.md",
+      "sourceSha256": "db234218c154c6d26ee7312ea447553cc0770766d11e1eba6ed341263e2efec3",
+      "slug": "2021-10-30-ir-reading",
+      "date": "2021-10-30",
+      "title": "IR Readingに参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "okashi.jpg",
+          "sha256": "cb905b91f59220d0d0a11fa30a92bdf3b795328d1253caa2976002fc7c331b66"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "a61c7abab16e035e747ad7bc4ad8431cd7522339d10a79d9d261a26baa32f224"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1122/index.md",
+      "sourceSha256": "a4b9ff8ca63204309b21912e49135f1fe51c313bcd641761bc4ecea0f6f1c4be",
+      "slug": "2021-11-22-idr",
+      "date": "2021-11-22",
+      "title": "王丹さんがIDRユーザフォーラム 2021で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img0.jpg",
+          "sha256": "adb63aac8db68d2253ff1be8f6a184cbef0d5d0ecc4e80458c644798bffa689a"
+        },
+        {
+          "name": "img1.jpg",
+          "sha256": "582d512604971c534279b24d2d8878209176bccb06ae392fea1635055310adac"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "fd67a0fe8952dd19989bbb61d9977b4e43be85d76537291f3552f1eca3785010"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1126/index.md",
+      "sourceSha256": "5d9b764db372f088c5e4517af7a89adf9861e3c7e63513a2b9f0e1c8c899313f",
+      "slug": "2021-11-26-lab-news",
+      "date": "2021-11-26",
+      "title": "運動の秋、大島研でフットサルをしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img0.jpg",
+          "sha256": "bdf8dba2185cd1a0c509b5e49e9ddaa8ac1fc080fff3572cbf8749412d30e6ec"
+        },
+        {
+          "name": "img2.jpg",
+          "sha256": "b09b9053e1f457ace9fae882a9bf0668b88a453a244aafa6e413bc558fafa0f0"
+        },
+        {
+          "name": "img4.jpg",
+          "sha256": "bf1ac760e6a6fda84e15beffbec36d088e26882bcd940ebef5dcc3d743f38be8"
+        },
+        {
+          "name": "img1.jpg",
+          "sha256": "54de41423783fde8ccf242bd1542d75cede2713cd21207afea4e5e2f32065f1a"
+        },
+        {
+          "name": "img5.jpg",
+          "sha256": "7bc2e29f5667b315843c8e940010ac20c83fd291fb30a55612f22682d0b672a0"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "cd5510be8e9a110731741fa4ba4d74bb14613a529353da346ca46c1f918b6bc3"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1203/index.md",
+      "sourceSha256": "116371fe4748bb7a0ca47dbb9a55723b3b396383c50679754c02024c2e2b6796",
+      "slug": "2021-12-03-lab-news",
+      "date": "2021-12-03",
+      "title": "M1が研究中間報告会を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "wang.jpg",
+          "sha256": "21e17399a4ed227e22aef080a72b4ef253f022340f9201744e6526ec01cbebc7"
+        },
+        {
+          "name": "furuya.jpg",
+          "sha256": "b3d7072fb131c15d7a70d4064fd5526753300c2fbfa6dbcd704d3ae420bbf2ba"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1210/index.md",
+      "sourceSha256": "ba3e8312e4f2c53111e8ed6978ed5c2f88a126d14a36b4db970e5462332553fd",
+      "slug": "2021-12-10-wiss-2021",
+      "date": "2021-12-10",
+      "title": "三林さんがWISS 2021で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "peace.jpg",
+          "sha256": "d69372b4b347197d0558d7c21f8310452b0695175ace625da179ea770162e28c"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "9d056f0a64233210271f5ac1b8c1f4c54e71e716e72025a5862e68ab816ef587"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1222/index.md",
+      "sourceSha256": "c6ce688fb4350e519ddc90f87a3ad63295fe8aaa34030451cdc53899ed5e9c51",
+      "slug": "2021-12-22-lab-news",
+      "date": "2021-12-22",
+      "title": "12月の4研究室合同研究会",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "IMG_20211222_143018.jpg",
+          "sha256": "50d6022ea2a13b9f077bc812adba87e6310629f822d3fc75e9c5df264263e7c8"
+        },
+        {
+          "name": "IMG_20211222_174811.jpg",
+          "sha256": "e96bec103baa31e50f07b9ae36be6141598aa829bfc7a0db352aa88545a6a814"
+        },
+        {
+          "name": "iOSの画像52.jpg",
+          "sha256": "84aed11f44257dcf02d0d8fb82a77cfc9873d67bd02792ceba06e5f69eb926f3"
+        },
+        {
+          "name": "iOSの画像64.jpg",
+          "sha256": "2b67b0541f37d7a6a87be00f5615116aed33023cf4c9cfafcbb9b8d4faeb95f3"
+        },
+        {
+          "name": "ImagefromiOS.jpg",
+          "sha256": "987525caa864977f99312815bcbe57d0b527362ab0b7f1b65f6dae113047d223"
+        },
+        {
+          "name": "iOSの画像66.jpg",
+          "sha256": "8b02c16cb268025fbcc656a7fc633b0a1d1c403eb2e6b4c6e5c716b39ae5617c"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "fecd47277819be6fa78fd59a2457d13df2aa246aafaf204a4b708f3c68ba00ee"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2021/1227/index.md",
+      "sourceSha256": "524b5494964ffa616b30a79178957692f81e3efa396aab95c0a94ed88d501c85",
+      "slug": "2021-12-27-lab-news",
+      "date": "2021-12-27",
+      "title": "年末ゲーム忘年会をしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "image1.jpg",
+          "sha256": "2a954f423cf82bf15acddecf51fb1fa7feb2e726d724bdfdb452794f02edde62"
+        },
+        {
+          "name": "image2.jpg",
+          "sha256": "6641c149660ef701fc3e187d45b12f3389b4210b1899f78df1cc81a0db21452b"
+        },
+        {
+          "name": "image3.jpg",
+          "sha256": "5b166c83adf2563797cfbeea70c4056c8440776df9d957df3596b151eb24d395"
+        },
+        {
+          "name": "image4.jpg",
+          "sha256": "303e9df550eb11313773298e65df9c1e5a0f7434000e342478e0827ab7d72d72"
+        },
+        {
+          "name": "image5.jpg",
+          "sha256": "e7586ac56fc8aaa11d2fc478aaa6643d737decdfcec9448af6e2f56d116a5a89"
+        },
+        {
+          "name": "image6.jpg",
+          "sha256": "06f295f2c6eb2e745685130e7268fe4054ca69846d975e14efb60bfc8f616449"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "beb79026d58a4d78cc8aeac11ffd2f722e675c7ef3fcc242d0bcca2e0bec252d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0103/index.md",
+      "sourceSha256": "85de298e31799cd2eea8f6d3521d500c5b3cba8ab65af9fcf8a199787e91214b",
+      "slug": "2022-01-03-lab-news",
+      "date": "2022-01-03",
+      "title": "三林亮太さんのラップ研究が日刊工業新聞に掲載されました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "image1.png",
+          "sha256": "730d1d8bbb03f242f13e2573499f04ebd76f90a09532073d1957e500e1d4683e"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "8d86773c8f78d84768afed1fd5bdd3ba898a0ecb931b1dec4c607e444faaecbd"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0201/index.md",
+      "sourceSha256": "ccc21889033990d3878ed3bab08f0bf85a36e9c18d8d2f8c3eaa49ac3ace7122",
+      "slug": "2022-01-31-lab-news",
+      "date": "2022-01-31",
+      "title": "M2が修士論文発表会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "1.jpg",
+          "sha256": "568dd4797b65802c60ed7859df17e2cfc6337da067f1575095a7779bb95aeb12"
+        },
+        {
+          "name": "2.jpg",
+          "sha256": "01a0777e52ddc1976096f520c3936310248e33d68f6958df4fe279534fd32362"
+        },
+        {
+          "name": "3.jpg",
+          "sha256": "fcdde04b15167831678cdeaaf4f725981713bf94c56c9e0b1a7894c78281842f"
+        },
+        {
+          "name": "4.jpg",
+          "sha256": "0636ef6b66d93ee972b781ef654900c7e2d04e0bec0672e21d6e91ceec657cf4"
+        },
+        {
+          "name": "5.jpg",
+          "sha256": "abfdcbd5d3554044dff24193b3b67bfcb7b36d1b2eb007bb6f95acccb7111346"
+        },
+        {
+          "name": "6.jpg",
+          "sha256": "a7cc2b8f411f4ee3a186a9816e13b2185477d64ce9175fee3b621e38de0a91f6"
+        },
+        {
+          "name": "7.jpg",
+          "sha256": "f933adf2f9e524f16db441da1d2ad529479a26a18cbd2a6252aaf8869c7e9d58"
+        },
+        {
+          "name": "8.jpg",
+          "sha256": "a6818df6aab2084924eda7667a7fc0702393bfe788b4fc86ae0ded26abcd1f9a"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "7cd40e75c550ad85dec3277497e84ed145cb7afa8c7ee328c826e89853bbed51"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0203/index.md",
+      "sourceSha256": "9a4bffbad39028bfbd2e4a8408a3c032c76ce424d8059299c7fa241039f5d2fa",
+      "slug": "2022-02-03-lab-news",
+      "date": "2022-02-03",
+      "title": "大島研のメンバーが豆まきをしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "kick.jpg",
+          "sha256": "e7d4f222ac213b2d727a0c1dca2588cdb852d875710ee8520e520c987b4d1d38"
+        },
+        {
+          "name": "yokeru.jpg",
+          "sha256": "172671620915a9442165b67a98865330524736971a644e59f385df7b99014fab"
+        },
+        {
+          "name": "yokeru2.jpg",
+          "sha256": "af3eee3267ad514b1a20457cf8bce3392d57b7c3704ffbc00f7257abd467ac37"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5a04db1413dfb85e302aacfbe8da7908a66a3b3b678e911f33bd16db5df19c3d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0302/index.md",
+      "sourceSha256": "d330a7637214e1e6c537639a03315aab9f386e40a709ade297a4d7307443296e",
+      "slug": "2022-03-02-deim2022",
+      "date": "2022-03-02",
+      "title": "大島研のメンバーがDEIM2022で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "mibayashi.jpg",
+          "sha256": "ed62edc4d9cf1cbe6bbd462f735458136b1718a9042f6b6957316daaa84952fd"
+        },
+        {
+          "name": "m1.jpg",
+          "sha256": "d3b7b7e493db467f1f16a8c4ecdf578a79408c91ef5839b9eb08d633a3ee31ce"
+        },
+        {
+          "name": "m2.jpg",
+          "sha256": "e9f0e4b41aeed419663b40c2a9126668f4d62e1fb92eba0f93f7b159455081c8"
+        },
+        {
+          "name": "hamajima.jpg",
+          "sha256": "78aeccfb128f84346a463ad20c1b8cf67d089ca422cc6aa4009857b32146e456"
+        },
+        {
+          "name": "yoshimura.jpg",
+          "sha256": "b3334d7f909d047fa2594d4ee636e6d56aedf39e99583c16da171c5eb7e8a8e5"
+        },
+        {
+          "name": "kawahara1.jpg",
+          "sha256": "eb63a099241db6a3afec35e501e1fd79e991eb8043a7db6ded77daf0f58fcd9a"
+        },
+        {
+          "name": "kawahara2.jpg",
+          "sha256": "b7f8569f70e8762ce38097b0d6cf0a074c546ca8a9b7640fda7f508f0c49fefd"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5b5b6878b30c792cd735499db36ccebbed9b0704435ad6a0e69787923a76064c"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0304/index.md",
+      "sourceSha256": "f967976e5b7972428a8199fd3f7e25f0ba66eb822b796a0a1b3165ebcabfa315",
+      "slug": "2022-03-04-lab-news",
+      "date": "2022-03-04",
+      "title": "大島研のメンバーが追いコンをしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "okotoba.jpg",
+          "sha256": "d73c260872f66c3e1ec3f861131a2c232135289fb904e108ca9dfd731bba9adb"
+        },
+        {
+          "name": "kawahara.jpg",
+          "sha256": "80a5759d288fc74297cfaa495894e05228746a14be8c6b297e3842d33e1cf1f6"
+        },
+        {
+          "name": "hamajima.jpg",
+          "sha256": "2117abcff475b44e1d9e431707db7901e2e098cbce3dde2bb48f209fc211f6f3"
+        },
+        {
+          "name": "matsumoto.jpg",
+          "sha256": "3b72988e6e3391260e911923b93049bc45680ecbe88ad3da33a1188014797a1a"
+        },
+        {
+          "name": "mibayashi.jpg",
+          "sha256": "3b6d1aa66680cec484a8723bd7ec9dc43fbf55bf5e64fa99cb0217055a653e9c"
+        },
+        {
+          "name": "ueta.jpg",
+          "sha256": "61e7d0f15800f94308a83040a9fece23aa158670b9b891a2d5a5f6689b23bcb2"
+        },
+        {
+          "name": "yoshimura.jpg",
+          "sha256": "265fdcc0500aa36ab17e5709466f33e2dc5dfea22c596434b3c5118d6e3db0cc"
+        },
+        {
+          "name": "sakane.jpg",
+          "sha256": "6f2c86b28b8ce80ce46c9556423692179c271bf7a73ffdb6d548d055155eaeb8"
+        },
+        {
+          "name": "bingo.jpg",
+          "sha256": "3911391c8a5c39e8d0889855845bf8fae42e5d7e6564772d1453f84330567a74"
+        },
+        {
+          "name": "huruya.jpg",
+          "sha256": "e02e06560a9bd184e2867977d472db9f93ee7927db193977c38f468590051a44"
+        },
+        {
+          "name": "give_present.jpg",
+          "sha256": "8b087ec225c48fdca1ae95c810a7098bbb467f1b516fcdbb5c5f9c9da8309831"
+        },
+        {
+          "name": "sensei.jpg",
+          "sha256": "25f8df3bba0d27de8cb243f06da1d9dec28c828b1aadf80f647d88c10eeb3716"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "8defe0aa4a428478630c04c5fdcd0e39d5269644d08b42cbbfffd77eb9d98f18"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0315/index.md",
+      "sourceSha256": "b2435662d8431e931f9a2399c6192bf86528facf23fd672cef578eca2096bc39",
+      "slug": "2022-03-15-lab-news",
+      "date": "2022-03-15",
+      "title": "大島研のメンバーが商科キャンパスで新研究室を立ち上げました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "19465.jpg",
+          "sha256": "21a4d3741892214027dd6361dec51d69be601610c12f26dffeb005a215271735"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "736ac9f919c4af6eff448481f1d4026d0c04a7d5c87e4ca1e61b8826dea7f03d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0408/index.md",
+      "sourceSha256": "1d54521d400bf7a2bcf84fdea525844ad8a898e569f6f4ee5b3d2ce03cdf3dcf",
+      "slug": "2022-04-08-lab-news",
+      "date": "2022-04-08",
+      "title": "大島研のメンバーが新学期の第1回研究会を行いました。",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "844d7a82bcc0451e677220afa3da3136c1bb50c88189b13ac124c91090745120"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0501/index.md",
+      "sourceSha256": "17bdba5a5e1bd571db4bf86eda8f997bf3a921f0aaa2a134c34bdc23889e4cd2",
+      "slug": "2022-05-01-lab-news",
+      "date": "2022-05-01",
+      "title": "橋口友哉さんと川原敬史さんの論文が論文誌に採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2022/0521/index.md",
+      "sourceSha256": "00b6490839451f42d73b3450e68200e086bd3ade8fbc21cfa34e05a99f78b674",
+      "slug": "2022-05-21-ir-reading-2022",
+      "date": "2022-05-21",
+      "title": "大島研のメンバーがIR Reading 2022春に参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "393b683253869600b4ffac58b506d114195204b611c4347e086590fa554f2977"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0620/index.md",
+      "sourceSha256": "35da549072506c15c9b7b478b2d89a89ada19513c4d0dcca0de5edd138bf0403",
+      "slug": "2022-06-20-lab-news",
+      "date": "2022-06-20",
+      "title": "三林亮太さんが「未踏IT人材発掘・育成事業」に採択されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2022/0622/index.md",
+      "sourceSha256": "fc9f19176ab9f7118afaa2ac923362aa002aa3e9aaa8f1248bb4cc9cca9c9a1f",
+      "slug": "2022-06-22-lab-news",
+      "date": "2022-06-22",
+      "title": "大島研のメンバーがフットサルをしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "game.jpg",
+          "sha256": "ae2e7b6ba6d5e02afc3149014124b0897ac71426f11fb5f7df1615aa6e4fd2df"
+        },
+        {
+          "name": "keeper.jpg",
+          "sha256": "3615ecf8e45424e856533615cb845f6421d962d5dc69a26e4ebdbccac5bae2ac"
+        },
+        {
+          "name": "winners1.jpg",
+          "sha256": "0bf40ae12adf7c736cb2cec784fd871c89d92e33774898b1d90daa984ee06983"
+        },
+        {
+          "name": "winners2.jpg",
+          "sha256": "9c51e136bb93e540d2dc81d81c79b3476cd5a60567dd8ad795385595239566e6"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "c84fb848616c55671fe6031bf869225b9832d5b11e36a721a598768fc270f039"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0702/index.md",
+      "sourceSha256": "fa2eba5331bc6d6a7273fc8ee7649bdda34a6dab98ab607a46d361d54fc7b055",
+      "slug": "2022-07-02-lab-news",
+      "date": "2022-07-02",
+      "title": "大島研のメンバーがコンペティションに参加しています",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2022/0706/index.md",
+      "sourceSha256": "3d52b328c57f29e0a0fd63bd4148aad9de9610a48711583b14c6dc0b1f40b2a6",
+      "slug": "2022-07-06-aai2022",
+      "date": "2022-07-06",
+      "title": "三林亮太さんと王丹さんがAAI2022で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "wang.jpg",
+          "sha256": "06ab9b5beaf7cdfd4a7f0594534256342fe3e221efc6b0d1cabea0a842c186cc"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "70d197f6d8a76945d25c1d77a475dc0e96ff3fe0d416b77d87e7aa597c7e3124"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0715/index.md",
+      "sourceSha256": "665801d5758828f1afe5c77153509a3a9cab1d7773cd9a21044da78cf475d2dd",
+      "slug": "2022-07-15-lab-news",
+      "date": "2022-07-15",
+      "title": "大島研のメンバーがBBQをしました",
+      "draft": false,
+      "missingImages": [
+        "bbq1.jpg"
+      ],
+      "images": [
+        {
+          "name": "bbq2.jpg",
+          "sha256": "30b720a8bf815030cc3869e103a9ccfb9f3a61010df25556f587ee2adf8505dd"
+        },
+        {
+          "name": "bbq3.jpg",
+          "sha256": "535759ad09c4d5eaf588c6a742fc3bb66af2e56c29a7e7c6cf6dd155d06e3e10"
+        },
+        {
+          "name": "bbq4.jpg",
+          "sha256": "8b57de5649ef5d9afb0318d53758f2cda99209b6c60e00217ef236fdeae0bd08"
+        },
+        {
+          "name": "bbq6.jpg",
+          "sha256": "22375879549b099dc4819cc0d49f5d1347aef22b43f7be471d6a4ef8c3b6cafa"
+        },
+        {
+          "name": "bbq7.jpg",
+          "sha256": "3e467dc6e198dda8ad140ae9bdc5d8277cfa6d0614c24924a14cbdce632787d5"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "50fa8874e94b0e20589521b6dabdbe97e2862aafb445c4e7b590de949d369641"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0817/index.md",
+      "sourceSha256": "111ce0403266ef0ffb516692244b0d437c70e883247325ad9c51364e1c9531b7",
+      "slug": "2022-08-17-lab-news",
+      "date": "2022-08-17",
+      "title": "大島研のメンバーが研究室内の大掃除を行いました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "2.jpg",
+          "sha256": "d872c41223b8b36c8662672e6c5b86bb4c16f99e77946ab6c513508832796c39"
+        },
+        {
+          "name": "3.jpg",
+          "sha256": "8168922b38c336ebd1b63a532a20ff853ce99a00fdf541e0595475c3916a8422"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "7557c6bc47c63055167add1c0e6b031e897d3912cfa111dbf8e9820144fed298"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0911/index.md",
+      "sourceSha256": "b1a2eaf97834f1bb2adb1ffd758b81a1df4822b8f33c727594aaeb5f0ba0581a",
+      "slug": "2022-09-11-lab-news",
+      "date": "2022-09-11",
+      "title": "大島研のメンバーが講座旅行に行ってきました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "2.jpg",
+          "sha256": "67be0c6891de6871a121e0087ec4efe810bef3f8492fb46c1d98f93018b5769f"
+        },
+        {
+          "name": "2_2.jpg",
+          "sha256": "dadb3eba7dd2102081be1669d9cbff721447ea8ac1dbac5fef675e38efee2e8e"
+        },
+        {
+          "name": "3.jpg",
+          "sha256": "0bb74461d58b458b012950da21d1bc89aeca6d71cf7ef43952b6cd816f208dd2"
+        },
+        {
+          "name": "4.jpg",
+          "sha256": "8c64fd817669939967bb3fdc65b09db32dd773f76f3c35621ca32c270b2ab395"
+        },
+        {
+          "name": "5.jpg",
+          "sha256": "422bceb320480af32fab2bfac8fc7fa073cec6ee6424f9c4bc988bdcbb02a3bd"
+        },
+        {
+          "name": "6.jpg",
+          "sha256": "d3d3dad357499c440369014ebfaf54f58740dc9d3766937e970e97fa183f4e5c"
+        },
+        {
+          "name": "7_1.jpg",
+          "sha256": "d84f8b34a00f5839678a48e4d43f8e974682c61de21dd8236e1f58c2b67327c5"
+        },
+        {
+          "name": "9.jpg",
+          "sha256": "5e0bb8dfba42f6ffa510eea8684fae804154d2015a1161e2443944adb7eb6729"
+        },
+        {
+          "name": "9_1.jpg",
+          "sha256": "0a8f5b72500628992180ff0b21131f167ef4e9755e2ae57dab8e6a42249d2730"
+        },
+        {
+          "name": "10.jpg",
+          "sha256": "c3996509c5083db0efdb2a1758f4491eb36110e01db38de1c4537cc8fe576002"
+        },
+        {
+          "name": "10_1.jpg",
+          "sha256": "a8d8c264fe15cc26b1d65c0fca00f6563004d293f7a9c1c1ce9b1f6a6d960d9c"
+        },
+        {
+          "name": "11.jpg",
+          "sha256": "5e7f708e639621d0cb887eb516ba493fe4f048983ef74aa238d117e38fc706d2"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "095516c3e68cb96d44d498dabe478e3c08e8ed632d53de940aaf7801989cfa6f"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0921/index.md",
+      "sourceSha256": "67a56d6f744136276f0ff48f3fcd1d9bb997b4b73e8487c629c64e0fa1ff0c62",
+      "slug": "2022-09-21-dbws2022",
+      "date": "2022-09-21",
+      "title": "大島研のメンバーが東海関西DBWS2022で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "dbws_title.JPG",
+          "sha256": "eed451d0420d2b62e8542d8fe1279aaa010fd4ec69304f8483a854754e244289"
+        },
+        {
+          "name": "dbws1.JPG",
+          "sha256": "7ac36ea5e377de98c79d8ea7cc860902c95173b55cb76948926cc69070a93477"
+        },
+        {
+          "name": "dbws2.JPG",
+          "sha256": "b635a26971978cb931e2d925207494ac276dc3397719e7cc597b5c2ebfee6191"
+        },
+        {
+          "name": "dbws3.JPG",
+          "sha256": "874919fa694cd412683774fafa234490933e697b61e2f0ed0a7f2393cea55c8f"
+        },
+        {
+          "name": "dbws_award1.jpg",
+          "sha256": "a572de009e1743309021f14e40e2b162939b90764a8573b7ce6b9b6d8775bddb"
+        },
+        {
+          "name": "dbws_award2.jpg",
+          "sha256": "1d37ed6a457806684fe000f81bbacb4255d7fc1d052fae727524c292762c5d68"
+        },
+        {
+          "name": "dbws_award3.jpg",
+          "sha256": "29477b0381e401690491fc5ec225c7c1a8d7a6fe8be9858ebb6a25069185b46a"
+        },
+        {
+          "name": "dbws_award4.jpg",
+          "sha256": "6e943644f98367795b6fcad0f43c33640fc4867abda13725d455e58fbb0720b9"
+        },
+        {
+          "name": "dbws_award5.jpg",
+          "sha256": "0a9eeac9ebfcffb0fbf6e0b3590028abfc58fb31a526872eeda348553d33080b"
+        },
+        {
+          "name": "dbws_award6.jpg",
+          "sha256": "eed34098836a2152b00d22035c0e8041d2ea9b17336621e15ae3bc682337d33d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0925/index.md",
+      "sourceSha256": "dbaec3b3e4b38842acee3083cd6a80b556d0967043b7507dee967bb663a5d1fc",
+      "slug": "2022-09-25-lab-news",
+      "date": "2022-09-25",
+      "title": "大島研のメンバーがAtCoderに参加しています",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2022/0927/index.md",
+      "sourceSha256": "0f9c41d51ad9ec9c5d4bf3170f1a15534ea5e8aadee9ed7477463e72010ee1de",
+      "slug": "2022-09-27-lab-news",
+      "date": "2022-09-27",
+      "title": "三林亮太さんが知の交流シンポジウム2022に参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "mibayashi.jpg",
+          "sha256": "b14d449b990229f8cff57592fa619af7d4e55ff3ad8c304928507f2af70454f2"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/0928/index.md",
+      "sourceSha256": "9c4aa9e369b86b6f0c6e015ea7f247355a71984f33545432268fd19968118867",
+      "slug": "2022-09-28-lab-news",
+      "date": "2022-09-28",
+      "title": "大島先生がラジオに出演されました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "radio1.JPG",
+          "sha256": "1c71a59aad7da115c61a42a33356818cdd6bed00879ecf21deceabd0e4e99fe0"
+        },
+        {
+          "name": "radio2.JPG",
+          "sha256": "8a7c64492f99d7ee40a35fca9aa80e1da37b43c0d8c713f5893abd21643550de"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/1014/index.md",
+      "sourceSha256": "cf08f3834ea74da2e1c9f637076a7ffa98005457bc007f54d028e50d1ac39b6e",
+      "slug": "2022-10-14-lab-news",
+      "date": "2022-10-14",
+      "title": "B4が卒業研究中間発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2022/1021/index.md",
+      "sourceSha256": "9f1e89d64924ec35ca024b69592640bafb4e01b7136d6682a8ab58eec0bd393f",
+      "slug": "2022-10-21-lab-news",
+      "date": "2022-10-21",
+      "title": "大島研のメンバーがB4の大学院入試合格をお祝いするBBQを開催しました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "picture2.jpg",
+          "sha256": "babc840cc6aab895636ecb7eeb554178e932ca9b471ace35e4f2f232f2886a2b"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "98747902e47035a4173f4996e42f1901c8bcb25eedea80a029d691028db9a72b"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2022/1104/index.md",
+      "sourceSha256": "267165c2d8a5ec84b2fb4012648517b1df20864b0be27c98f4d875d618c95514",
+      "slug": "2022-11-04-lab-news",
+      "date": "2022-11-04",
+      "title": "M1が研究中間報告会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "4e67ac957601b857982acddc43d99a79cbe608d41cf6bbcea43bb0cc816c6d74"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0203/index.md",
+      "sourceSha256": "097905470d13c43e3eaae3a01173051b54405320d52db8c97a9baaf76d7fbfff",
+      "slug": "2023-02-03-lab-news",
+      "date": "2023-02-03",
+      "title": "大島研のメンバーが節分イベントを行いました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "oni1.jpg",
+          "sha256": "5c61808cdff0c573eec3826cc8603f489d00e563cd027025e9211bf455bb889c"
+        },
+        {
+          "name": "oni2.jpg",
+          "sha256": "3d337e31c9b5e84d26053ef445cf3e81f0f7101263ca2ee6fb785f334fe8261c"
+        },
+        {
+          "name": "eho1.jpg",
+          "sha256": "55d4709e82f0f7a9f0fdc0629e3bf0ae0735b58b428c2e6fad1bfd8bd19bb3c3"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "88b91b49cf2033b94bd8c5e42c8605794e854d570c2496c29e6d51fd52a8c412"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0217/index.md",
+      "sourceSha256": "9dbcf2dd59c272c22bc004ed2827c180c46c760b2f170fd53f0a6ba95676270b",
+      "slug": "2023-02-17-lab-news",
+      "date": "2023-02-17",
+      "title": "B4が卒業研究報告会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "ashizawa.jpg",
+          "sha256": "cace304532476ebb3d2185d34526b142d1c6270f3d36a614ab05d00f3fe0dc1e"
+        },
+        {
+          "name": "kuwata.jpg",
+          "sha256": "1ec19dd7a3aa954ff8e336e819666a054262f24b481876a30fc13fbb034d312d"
+        },
+        {
+          "name": "hazama.jpg",
+          "sha256": "4bad6c9d3ffa956c5ad2fcd1adab9bce76f6b4cacea00fb1857ad837fb54ccf1"
+        },
+        {
+          "name": "hanatani.jpg",
+          "sha256": "9b654b675ac7eb617f688363b98beac35aa03fc537b489702f606eb3666fc7d3"
+        },
+        {
+          "name": "manabe.jpg",
+          "sha256": "9bdcf0baa7f903f33114b11a0b8a16786e00794ceb603c2eac6a3c6b83cf64ac"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "e85378853dfd8741fbe780f88a7d1c2804123e2ef71524f05fda5830075e165e"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0221/index.md",
+      "sourceSha256": "5d86c94b9b66859e87006235993ba0a966af98712702e754ba853c8241ed909a",
+      "slug": "2023-02-21-lab-news",
+      "date": "2023-02-21",
+      "title": "M2が修士論文発表会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "wang.jpg",
+          "sha256": "ae29681162bcaad4912d5453ddbdc1f0dfe22f961f5dfd7d4942f1ceb0967e6b"
+        },
+        {
+          "name": "furuya.jpg",
+          "sha256": "8fdc3310e92ca12695c5fbb8e2f05f82a4f00b4b4cbc302bfc2faa7b81ab92ed"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0309/index.md",
+      "sourceSha256": "1f078106a487907cc02ef5d60651bf3c49c1150a1fbab5e434d8064b5eff1b57",
+      "slug": "2023-03-09-deim2023",
+      "date": "2023-03-09",
+      "title": "大島研のメンバーがDEIM2023で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "wang.jpg",
+          "sha256": "fe673434905bdda665f7f69cb89abdde02d1dfe6a8bc3bb15ca218ea3d3f1321"
+        },
+        {
+          "name": "hazama.jpg",
+          "sha256": "cf2cc9e1bfbb551a44ff6cd4b9de56c090fcf8649f00a171d9ac07743e4195d6"
+        },
+        {
+          "name": "mibayashi.jpg",
+          "sha256": "921c09eed270ef51ea81eb7465f67ef5af3bcbfa674cd7dd64a843b884384e99"
+        },
+        {
+          "name": "kuwata.jpg",
+          "sha256": "e04d1f28ff19ef5e8fe3f087b239cda847bb9117e9238d817239f20dfc0b0845"
+        },
+        {
+          "name": "interactive.jpg",
+          "sha256": "8175030e9ffbd77506366da4438026ba4307ee77c92aeb46f40f296d26a8cafe"
+        },
+        {
+          "name": "mibayashi_interactive.jpg",
+          "sha256": "b1df97dc9169e65a4cf80e722f65d4334d3fb20736cb0ca20af5f115fafe6209"
+        },
+        {
+          "name": "takashima.jpg",
+          "sha256": "32fc9f26942ed10370feae1ab25ced430fee32bc264f74688485521b449bc5ad"
+        },
+        {
+          "name": "okumura.jpg",
+          "sha256": "d78ccfa2fc1f31f8fbbb9610f1019663bc3de695096f1b200b29059c4fa5a5d8"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "bff44ba8a77b080701ef196e798982f59feab30c16b50dddc40fc1a8f26a9894"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0323/index.md",
+      "sourceSha256": "514864c272d112791e0c49525606cee7556f1d835454279be2661d3b0e6366af",
+      "slug": "2023-03-23-lab-news",
+      "date": "2023-03-23",
+      "title": "追いコンをしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "furuya.jpg",
+          "sha256": "aa96cc8eae08ccd38bb0b48030a769c588ff6b6b84bb59720095aa2bc10c158a"
+        },
+        {
+          "name": "wang.jpg",
+          "sha256": "7d485960f7b7ba4554faf5603fd5da438c562b941f76398d210c4fdb7af841aa"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "cc138fb67471321c828ebd5c2ebc20797ac63068916a29bca48dd09d4e7bf12f"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0405/index.md",
+      "sourceSha256": "b706b06b2f4ed307be1ff93d30d9ce4e250927fbe976b97e894712378693046e",
+      "slug": "2023-04-05-lab-news",
+      "date": "2023-04-05",
+      "title": "お花見をしました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "picture1.jpg",
+          "sha256": "3b9008fd1376d4775612bbe6df4a3c4109d37decb79ef71c59295a75be1fb104"
+        },
+        {
+          "name": "picture2.jpg",
+          "sha256": "6edb60b5fd38f260357266cc8b8d8fbf4786352c87acd7767a4e1791891c6273"
+        },
+        {
+          "name": "picture3.jpg",
+          "sha256": "25f8c86e1c8011a2dcf82d86795dedbf68313304a62ccf2425d99a501b0b71ee"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "9b36759dac40a689d6b50a62c3be66f61790a84306c14dc2982ae7e4b7d6b369"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0519/index.md",
+      "sourceSha256": "550b913ed57f2080747724b11996fb80c42f8fe469f6979bed883ee816147694",
+      "slug": "2023-05-19-lab-news",
+      "date": "2023-05-19",
+      "title": "新入生歓迎会を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "picture1.jpg",
+          "sha256": "5113dc46499cb8e743d2dbe7734eb891806e0c9417f3b08ddd3793d6ac051ee6"
+        },
+        {
+          "name": "picture2.jpg",
+          "sha256": "706391310655ceff0d46ec48943a9d29a369ed2e94efde37f0c94f50638bf81c"
+        },
+        {
+          "name": "picture4.jpg",
+          "sha256": "58c88e502635fc3225bc4e8a19725db6f7166fb7f64b2d5cef9609f66197ed6f"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "ba30d6835e8013f3c3f672d5f6842b1af941bd82c1fe6f66439c2c7a012028ea"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0526/index.md",
+      "sourceSha256": "36ac14a7bc745cb1552f581e51b673a59634262d58b46a26b257a00f1e93299f",
+      "slug": "2023-05-26-lab-news",
+      "date": "2023-05-26",
+      "title": "三林亮太さんが未踏スーパークリエータに認定されました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "picture1.jpg",
+          "sha256": "d129bfec4048bc008964d0a17b63d665a204c02cb0ec6e9b3b390868c5741ed8"
+        },
+        {
+          "name": "picture2.jpg",
+          "sha256": "cd31afa03f1349c40c39cc2b7221c555d7882ee242909c7d5b78e369cf782da8"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "f391a33810c5a98fbf545bf8264f0a5676e17a231c49850e991aaa17e5e79624"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0708/index.md",
+      "sourceSha256": "49ff7e353874aa34ca0f61eb752eea92170beb7002f8ad6c4c80f2bebbf29c05",
+      "slug": "2023-07-08-lab-news",
+      "date": "2023-07-08",
+      "title": "大島研のメンバーがACM SIGMOD日本支部第82回支部大会で国際会議報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "picture1.jpg",
+          "sha256": "4ff6edc0ec902ed815f13cdccebacc34872332232eef9be277f1072a9afe330c"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "3db14e6c5212144d761ec096fa8f6645a1fcdeb323462f3cd9ca85e22d4c64f3"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/0801/index.md",
+      "sourceSha256": "f3c44bc92e8fccef42b1c7012920773d31e9856b7e3082bccd2ffc8df0d859b5",
+      "slug": "2023-08-01-lab-news",
+      "date": "2023-08-01",
+      "title": "三林亮太さんの執筆した記事が学会誌「情報処理」に掲載されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2023/0914/index.md",
+      "sourceSha256": "c529ac85557d23ace54eca1048fe11ea812086a17240602fc5bf0b6b61a6bbf5",
+      "slug": "2023-09-14-dbws2023",
+      "date": "2023-09-14",
+      "title": "大島研のメンバーが東海関西DBWS2023で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img1.JPG",
+          "sha256": "427eedc8b975d3d83a27b5276b5a9be265940e9456ed107eb2f396867a2c70c3"
+        },
+        {
+          "name": "img2.JPG",
+          "sha256": "7ccd30c5ac1667600abc3a42f052ca405edb4661d6dd7a452c0900ec4054cc90"
+        },
+        {
+          "name": "img3.JPG",
+          "sha256": "a1be8afc12b55e2421b852fcec5ec6552db3ac28496e601991430b8dccfea94b"
+        },
+        {
+          "name": "img4.JPG",
+          "sha256": "6032b9ec0ba9d9090d68dc6767f3c6979ec805ba07025b74af0f1c35a2f8cc9c"
+        },
+        {
+          "name": "award.JPG",
+          "sha256": "5142421babe0ce8bcb11c3c408322920a2af5272837bb6bc98353e7849b431b6"
+        },
+        {
+          "name": "featured.JPG",
+          "sha256": "3e5571d00889272206fcb0460f869f752c87cb528b148d8f0d5130a79a9cfb87"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/1103/index.md",
+      "sourceSha256": "334cb88c755397873deed15af26331542317c9f868e052bb5f7f0e7fb7332975",
+      "slug": "2023-11-03-lab-news",
+      "date": "2023-11-03",
+      "title": "大島研のメンバーが商大祭に出店と展示を行いました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "Tamasen_Yatai.jpg",
+          "sha256": "691a27183fabcdd71887be8b1deaabe7779f163bad6a209d43bedfb0b49c50b3"
+        },
+        {
+          "name": "Tamasen_making.jpg",
+          "sha256": "b655591a5e17113964166ddd90b03ef0cf5ea2a3d469034718fc14492a6c35f2"
+        },
+        {
+          "name": "Kanbai.jpg",
+          "sha256": "247de59288b8b985ade9ff7b8d910964afc805c716b21e922085c9b873152834"
+        },
+        {
+          "name": "Tamasen_making2.jpg",
+          "sha256": "d9b1ca790490ef8a73c2d8263151f0e3050a3d09f1c410d17af8807f24470840"
+        },
+        {
+          "name": "Tenzi.jpg",
+          "sha256": "912e643f7024f8c5ed1db7554a12a57485732196e40134d69dc6d359a4c39897"
+        },
+        {
+          "name": "VR_playing1.jpg",
+          "sha256": "100d0385c98a323033cfd908131d1d2527b52a26ae536c12eb1d833236afa54b"
+        },
+        {
+          "name": "VR_highscore.jpg",
+          "sha256": "02c2f27ba82365ebbfb20cbf123e58b456e62ad1569afccf8850d08792c7d02f"
+        },
+        {
+          "name": "Kouyasai1.jpg",
+          "sha256": "aeb0cef0ba3559b84a9085c5e8b6e9cf42a2ef69960f81eed65f4c8afa1222b5"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "ca876a6488d600453b940e23a9c2ba14fafde692e7dfdf9813787ad2668996b6"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/1117/index.md",
+      "sourceSha256": "f0130a0b774244481e0212dc7f56541868e673c9a488da5443984f2dab2a23ff",
+      "slug": "2023-11-17-lab-news",
+      "date": "2023-11-17",
+      "title": "三林亮太さんが国際会議CMMR2023で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "oral.png",
+          "sha256": "cfaaea09925e08e999b305101ae0e28ca5f7c71a97dcd4e2c83c027b68210f25"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "413cb9f34f97fe7d297266c17eb2e629bde78b183b5309ef160be3b71ac44058"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/1201/index.md",
+      "sourceSha256": "30f96da37ed9bd6bf5b7baccf8b77d21d694d7349157ee341ce7e4d10ffbde69",
+      "slug": "2023-12-01-wiss2023",
+      "date": "2023-12-01",
+      "title": "津田裕哉さんがWISS2023でデモ＆ポスター発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "image.JPG",
+          "sha256": "6db794e9c7663443cc97d975c10658e8ef08944cd9ec75af47dfa3abc7729405"
+        },
+        {
+          "name": "featured.JPG",
+          "sha256": "a72f794bc981f4832c6745e16d91cad3b59483de5d8ea05a59bba21ed8fad6e1"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/1211/index.md",
+      "sourceSha256": "7f5236800d980ce2663e4bcca448c34898c3f1a978d95d3253fa7b5952dbb654",
+      "slug": "2023-12-11-idr",
+      "date": "2023-12-11",
+      "title": "芦澤亜里紗さんと中山裕紀さんがIDRユーザフォーラム 2023で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "nakayama.jpg",
+          "sha256": "80d71cceac1358012a2be50a9e582f56e23f489f67d6fdd2fcd57b06a8a2f4d3"
+        },
+        {
+          "name": "ashizawa.jpg",
+          "sha256": "e9e36aeb9efae11cbb4a965ff2324dec78d2bf0c221e7bd042be96f4a51b9a06"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "d63e3424f148d39333347e7b7307dc31fcd254b967ac9d046a866fbda32794cc"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2023/1215/index.md",
+      "sourceSha256": "6a7094fbeb577929ea26b9d791be1810786981c16a1644a4e415faa17bc2c7e1",
+      "slug": "2023-12-15-ntcir",
+      "date": "2023-12-15",
+      "title": "大島研のメンバーがThe 17th NTCIR Conferenceに参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "image.jpg",
+          "sha256": "1759904f79a2285b5fb5aeca516d4f88e68c8a03e05cd370a1e8c7488c7529d3"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "b496f43b40191ce7116bd97317bd1f4d882a91c97ebc362f10018f021ff5a00a"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0121/index.md",
+      "sourceSha256": "8d4502607e8298e0e039d9caeeb6e19a686f1ac218b6a27dd1526a18b4217bf1",
+      "slug": "2024-01-21-lab-news",
+      "date": "2024-01-21",
+      "title": "三林亮太さんの論文が情報処理学会論文誌データベースに採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/0206-2/index.md",
+      "sourceSha256": "a44766c6960e910cf43a9768bf155005b8ead8019ab18883ae67c7c86563390d",
+      "slug": "2024-02-06-lab-news",
+      "date": "2024-02-06",
+      "title": "B4が卒論報告会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/0220/index.md",
+      "sourceSha256": "75c47a516f711503dc8c0c5c6284b8b43cd5801917a02512d88eec44f2d9c0ef",
+      "slug": "2024-02-20-lab-news",
+      "date": "2024-02-20",
+      "title": "M2が修士論文発表会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/0221/index.md",
+      "sourceSha256": "9ed0dc8f3922517b89cb0a46d904e9e7d035f1c4699a4918b532be8dec112c1f",
+      "slug": "2024-02-21-bigcomp2024",
+      "date": "2024-02-21",
+      "title": "ファムフーロンさんと桑田若菜さんがBigComp2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "pham.jpg",
+          "sha256": "b86bb707a103a812e7eca1cb56df6b9fd22155a1f6db44dbed9d6be221b1d233"
+        },
+        {
+          "name": "kuwata.jpg",
+          "sha256": "8d6d422584f17c810015093c080cf2a41103d6ad84149fa91ea122c47b76f33d"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "99a0f4b11eec428862f9f34c326d54fcff8167869f9478a000956376e3d3b2c2"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0305/index.md",
+      "sourceSha256": "12e1258549393260e2fe9b999bad793996a2d979ec77ba5334652323e956a98a",
+      "slug": "2024-03-05-deim2024",
+      "date": "2024-03-05",
+      "title": "大島研のメンバーがDEIM2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "Award.png",
+          "sha256": "f466536d4c278dbe73cb7cbba48deb329f997a894588ecd660ce69bc6a734542"
+        },
+        {
+          "name": "Mibayashi.png",
+          "sha256": "a47611aad267ac8895827fa287f19332b275026f42216200f45158d0b1846a17"
+        },
+        {
+          "name": "trophy.jpg",
+          "sha256": "d1d7a9618cb20685c4fc60c3cf3816d785da570600c1141b123b06331031d0ca"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "4b5dfef2b1161b3e51ca04baeb86e4f7618b1cd545a5ce0bacadd9ac38ee3a7a"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0314/index.md",
+      "sourceSha256": "ae4f36ece3e584156a60f33933e84ab580077e2010e3bae0323b02c07a80e745",
+      "slug": "2024-03-14-chiir-2024",
+      "date": "2024-03-14",
+      "title": "津田裕哉さんがACM CHIIR 2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "happyou.jpg",
+          "sha256": "210bf522eebeadedc04b1b1b5378a99cafe41a6ef4aea8ad5589c23dccc1d5be"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5df07db0daa6802a01de301c5f464dc4ffeabcf2231c02518d1101287d0ca511"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0320/index.md",
+      "sourceSha256": "dda8aff8acad6f194e82fe07a3a72a6e68af754291f4923d96c6a2de64aa4ac3",
+      "slug": "2024-03-20-iciet-2024",
+      "date": "2024-03-20",
+      "title": "西本海生さんがICIET 2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.PNG",
+          "sha256": "a7df7b05c62fd9dbd62ddd0f9922b734d18df92ec69a39989c6a3e615dcc4cb6"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0326/index.md",
+      "sourceSha256": "bd13a1f55eabf72396f3821badd72f4fe491cf4827e5cdd2fe15c4c20a28db6b",
+      "slug": "2024-03-26-lab-news",
+      "date": "2024-03-26",
+      "title": "三林亮太さんが上河賞を受賞しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "award.jpg",
+          "sha256": "1575c19a076e16534009eb0c810620cb926a4284053e8d101a35e9f8ce67b565"
+        },
+        {
+          "name": "featured.JPG",
+          "sha256": "1075c5c7db069728bdc4560dc34f2f8cbdc4b78bac1a043439dfb870a592dda4"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0615/index.md",
+      "sourceSha256": "16e343525074b3743ea8f8e725c709886c7084973d7b28125598f148c7e0b50d",
+      "slug": "2024-06-15-ir-reading-2024",
+      "date": "2024-06-15",
+      "title": "大島研のメンバーがIR Reading 2024春に参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "2b08f0db08554f2fd7b915dc3ce54a8ceb97cb4c6cf6537d2d73ea3ff275a530"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0702/index.md",
+      "sourceSha256": "5a445501c08db21823a027af52eedc61ebd759c77af84e63de7bfcfa5ed9986e",
+      "slug": "2024-07-02-erdse2024",
+      "date": "2024-07-02",
+      "title": "大島研のメンバーがERDSE2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "Ashizawa.JPG",
+          "sha256": "1049719b71328c7d36f27e1c2a3e83ce73ea58cf315d4cb3b7d935e4a51c8b2b"
+        },
+        {
+          "name": "Sasaki.JPG",
+          "sha256": "f5281c1b9f21affec1656a75ddf807f377e8b9a9fa7ffdb40fd9c40bd8e92b23"
+        },
+        {
+          "name": "Nakai.JPG",
+          "sha256": "dde0cfd43a616239b6724640607f92b8b262fd1b278c9ba42189aa3e5a611120"
+        },
+        {
+          "name": "Nakayama.JPG",
+          "sha256": "f3ff4278f709296c0123d14f8ce3d0299d69f76f1cbbb246fcaad4a99e4399db"
+        },
+        {
+          "name": "featured.JPG",
+          "sha256": "f9ee16f5c1d6d10f8bab55a8255a78adfa92ed2ec5433c3f7e3ca664abe48951"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0710/index.md",
+      "sourceSha256": "51e28aa5114fdea905981ed6ee45e2f8ab33efc7ebc71075dac204dca7a3db23",
+      "slug": "2024-07-10-lab-news",
+      "date": "2024-07-10",
+      "title": "三林亮太さんが未来の博士フェス 2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "hakushifes1.jpg",
+          "sha256": "e150849802770e8698cd690e72f2ff8c274c6ef3d4a11f0b05fbea8e2fb0c339"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "cb700940d090180373bd9f3940bc22335cd368937118200be404e410de4ba1b0"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0802/index.md",
+      "sourceSha256": "3ec090beef952a0a6a1d5fc6a0ff1a8cfdbca417de9e1f10a3c71299c9a0c6c4",
+      "slug": "2024-08-02-lab-news",
+      "date": "2024-08-02",
+      "title": "M2が中間報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/0829/index.md",
+      "sourceSha256": "c686578943b5596bd9e2478aac20b38dfd6e84996082faa0dc2bad92084876a4",
+      "slug": "2024-08-29-lab-news",
+      "date": "2024-08-29",
+      "title": "大島先生が研究室紹介を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "poster.jpg",
+          "sha256": "6714fbdc5961e70d58f568db8fd291ff45fa55a9a3ca488950bbed5d388e98f7"
+        },
+        {
+          "name": "ohshima.jpg",
+          "sha256": "04d8867cf69ef8e4e2ef7cf56bb7b2a122a2caa82c5dd3d2ebdbd94ad7da84ac"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5d3ff5a71eb5e4c035542c74ef2f52050c5a9a11a5830f3f9fa43ce768c05aab"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/0924/index.md",
+      "sourceSha256": "e136843701a04153a9f1da263f9d277b1bd5bb4cf6387774c81a9f2596ca30b9",
+      "slug": "2024-09-24-dbws2024",
+      "date": "2024-09-24",
+      "title": "大島研のメンバーがプチDBWS2024で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "Kuroki_poster.jpg",
+          "sha256": "913097e3b29d2551e4ca927e556387b831069c59caa88926c771bea08015fcb4"
+        },
+        {
+          "name": "Nakanishi_poster.jpg",
+          "sha256": "00151fd8e2dcae6a557d13f20202712214e209f25e0aca5e740658a47596fb18"
+        },
+        {
+          "name": "Ueda_poster.jpg",
+          "sha256": "c233cc369cf97410a7ad410c5fe5cc38ac7a7c5c096966b98ae3eb427263e748"
+        },
+        {
+          "name": "Kinoshita_poster.jpg",
+          "sha256": "c19306d7f10edac955ae2dd868f745e33d593071f168f520cd53e12d066adf2c"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "2efc60d992f30f33c059b3bd6f8577e1006f02a2cff56fb50819ebcb4f74c861"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/1011/index.md",
+      "sourceSha256": "f78142b6aeee7cdbc50c093cb81deef56d14eaf40856f9e93a0d040d5cb88021",
+      "slug": "2024-10-11-lab-news",
+      "date": "2024-10-11",
+      "title": "B4が中間報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/1101/index.md",
+      "sourceSha256": "e3eec1c355da80d923cbd4f2b484c7037affddc497829f65fd8a815215b53810",
+      "slug": "2024-11-01-lab-news",
+      "date": "2024-11-01",
+      "title": "M1が中間報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2024/1103/index.md",
+      "sourceSha256": "91f237999763b4b9f33e2420ec4315966f7dbc24b57a5818da8bb4a1ee1214b1",
+      "slug": "2024-11-03-lab-news",
+      "date": "2024-11-03",
+      "title": "大島研のメンバーが商大祭に出店しました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "yakisoba_poster.jpg",
+          "sha256": "cb526696c59ebdde5ae6775baa46b6d44108bdc3a004ccc77b98438996130f8d"
+        },
+        {
+          "name": "tonpei_cooking.jpg",
+          "sha256": "cefe7bd333b9c90289b4f2dc4e2dd80c40aee49a70a267de611e5b4aece3160b"
+        },
+        {
+          "name": "yakisoba.jpg",
+          "sha256": "76e5f582a5355ecbcb4eb7d7e6f4744865ad49f062171391331552f8c588e949"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "244b7366ab63215b7201dba21f0f54b3e2808f7baa2ea171bf04c76ef935dbca"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/1109/index.md",
+      "sourceSha256": "3b16397db7f6a98ff50dc56e8ccbb46dcd22d4606511fc37c00983d1be6836cd",
+      "slug": "2024-11-09-ir-reading-2024",
+      "date": "2024-11-09",
+      "title": "大島研のメンバーがIR Reading 2024秋に参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "68b50226d8150ec6681b416efc57c04a3593fcb774c10cfc3eac2d326e7cc3ea"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/1206/index.md",
+      "sourceSha256": "7a6a1dbd735c5363938b7d95715c61cdaaeae66ce126da15d3679eb270c8552a",
+      "slug": "2024-11-21-siggraph-asia-2024",
+      "date": "2024-11-21",
+      "title": "三林亮太さんの研究がSIGGRAPH Asia 2024のReal-Time Live!に採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.png",
+          "sha256": "e18c9754aed6be1a49c4e16fb5ce715f7eeaf69c9112350f50fe245b8c147403"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2024/1208/index.md",
+      "sourceSha256": "d720b8cb861c200b6115f34c3656147f06ff09485074c3adb7bd471b99fb121c",
+      "slug": "2024-12-08-siggraph-asia-2024",
+      "date": "2024-12-08",
+      "title": "三林亮太さんがSIGGRAPH Asia 2024のReal-Time Live!でBEST OF SHOW AWARDを受賞しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "award.png",
+          "sha256": "bf0d70008389b47fa7a30349e483d3935ff764d5a108ad71c6e8b29dd99ca262"
+        },
+        {
+          "name": "mibayashi.png",
+          "sha256": "365aa521573488b6ae451572eb0bd1a23b1737464dce06386838081dedd2a890"
+        },
+        {
+          "name": "featured.png",
+          "sha256": "d97b09327064b2797401a28fa19a6672355c47caab632eb0f9213c699ca46356"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0116/index.md",
+      "sourceSha256": "b8b3e44c259925eae4275aa51bab5203980cddc7c51b0970fdb80a25d6f40ba8",
+      "slug": "2025-01-16-lab-news",
+      "date": "2025-01-16",
+      "title": "芦澤亜里紗さんの研究が読売新聞に掲載されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0128/index.md",
+      "sourceSha256": "dce71132b00b0cd3ea684b857f861fafae2b8af24e55582ee5f4accb3600f929",
+      "slug": "2025-01-28-lab-news",
+      "date": "2025-01-28",
+      "title": "三林亮太さんの博士公聴会が実施されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0205/index.md",
+      "sourceSha256": "eecf769dbd4c4704427fec49ff42e30bf4aec1d7afab2cfc9c14e56df1ab30d7",
+      "slug": "2025-02-05-lab-news",
+      "date": "2025-02-05",
+      "title": "B4が卒業研究報告会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0210/index.md",
+      "sourceSha256": "418a189f0438133ec001b9bd603b6ae054c9b8ef5430376e3c38d4007d9c5819",
+      "slug": "2025-02-10-lab-news",
+      "date": "2025-02-10",
+      "title": "森川優さんの博士公聴会が実施されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0221/index.md",
+      "sourceSha256": "3e40df23a2c02fd2b542ce0d4202f1d1227a97689e84e07d16298f10bf50cb22",
+      "slug": "2025-02-21-lab-news",
+      "date": "2025-02-21",
+      "title": "M2が修士論文発表会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "kuwata.jpg",
+          "sha256": "0a71bab6220cee9336b2c5dbafff387fc3c2496e60e3fd0285177f03e7ec8f9c"
+        },
+        {
+          "name": "nakaya.jpg",
+          "sha256": "1fa4cd70bd011ed9c91b1a25af090c39885a427a2c6e830e17bf2bdab47b88bd"
+        },
+        {
+          "name": "hazama.jpg",
+          "sha256": "e65db03eadadfeb5498bbefaa48a798d78c5b591192375eeb41ffe408d1dd22d"
+        },
+        {
+          "name": "hanatani.jpg",
+          "sha256": "1f1f1ad8e5a8bef5f5dfea209c4e99dd56cff97391daeceedb65c81005b337ce"
+        },
+        {
+          "name": "manabe.jpg",
+          "sha256": "fc3a2c5643c944cef831352031a5d54102f2084a85f8715c289341637ec71539"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "c0062431e64a546e710c46cb7bd6501482b880f3de06cdb2b2933d7463cd3301"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0304/index.md",
+      "sourceSha256": "5266eb2c0e7d41613b95bb4561807dd43414a6d91ceb79a92f4af144319b9ffe",
+      "slug": "2025-03-04-deim2025",
+      "date": "2025-03-04",
+      "title": "大島研のメンバーがDEIM2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "pham.png",
+          "sha256": "82d2aafc415b573e909713c896b71aa5fc97824fe0a7579c7db9d91e136d951f"
+        },
+        {
+          "name": "ashizawa.png",
+          "sha256": "222a0548850eb1a2f7631322d952d1063b3ef0af56d9ed611ba4c997a5c5604a"
+        },
+        {
+          "name": "kuwata.png",
+          "sha256": "ef3bbfcd34147c312f204737ee0176bac97bd57491ce0af3abb556995cc2a306"
+        },
+        {
+          "name": "pham_recruit.png",
+          "sha256": "5ef7704875ded70afe033be9d904be30c2cea64efb6dfa9427e95188639a4495"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "f55623f7094607fb1f82a10e6ed0d85e864fb3d35b56d08030f9729ff021789e"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0314/index.md",
+      "sourceSha256": "83bec27b1f8f324b531f6b2f9a821e874a383fdce364813b22bf83547d5547c5",
+      "slug": "2025-03-14-nlp2025",
+      "date": "2025-03-14",
+      "title": "三林亮太さんがNLP2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "poster1.png",
+          "sha256": "f9d7b6b2b0cd4723e9a4c793e08743d117e4872a2fdcea4a4714713609b672bf"
+        },
+        {
+          "name": "poster2.jpg",
+          "sha256": "7ed3e5839f73397854e39f6ae30b00456bf4f97d03a98929591f6197835233b3"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "a98f628550f24b7302f947f2651d20a2003384dd95cecdf07c365c129cba6fca"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0325/index.md",
+      "sourceSha256": "1e8b5182f28290e9a5d4edecf9f4b92b5f2ea8291592ced8925f1929bb884f4b",
+      "slug": "2025-03-25-lab-news",
+      "date": "2025-03-25",
+      "title": "大島研のメンバーが卒業・修了しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "kuwata.png",
+          "sha256": "168a35b025f1d40adb0dc9c0da07399b5588e2be2ab80961836d7324d856a5f8"
+        },
+        {
+          "name": "mibayashi.png",
+          "sha256": "49e4a7d14f0064d95d4a3e58df50eb0b83e8d535a114a2249ab943113fabb480"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5517bf4c83583b4207d2931e4cfc213b9304818a38dc15ef53e332c8e02e170f"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0327/index.md",
+      "sourceSha256": "cb126c33351ba38f48bd58f8d8b4f8cb4bd9542b7d9acbd4a669a5bb412c7a13",
+      "slug": "2025-03-27-lab-news",
+      "date": "2025-03-27",
+      "title": "ファムフーロンさんが上河賞を受賞しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "426cdb6f90a86b872a25befaacef5d5531e4597bf3bff520cb2062ea48ec92ef"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0507/index.md",
+      "sourceSha256": "deb591364560c04221fcad8e72d560a01ce72429501d3c904c642fadb5b5148c",
+      "slug": "2025-05-07-lab-news",
+      "date": "2025-05-07",
+      "title": "三林亮太さんの論文が電子情報通信学会論文誌に採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0524/index.md",
+      "sourceSha256": "3c71d95f180591e0500c82a39d4afd4ba3b15ab993aeb16732e3fd333713acdc",
+      "slug": "2025-05-24-ir-reading-2025",
+      "date": "2025-05-24",
+      "title": "大島研のメンバーがIR Reading 2025春に参加しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "afa79d6289d713323b2ebe3e30cb07fa6e7b74db87227c57b81f580cbb1c08dc"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0621/index.md",
+      "sourceSha256": "d252c3c558fa4f9192ba03998c2bd6706029d6ce1f81f971a6d664f62cf3349c",
+      "slug": "2025-06-21-nicograph",
+      "date": "2025-06-21",
+      "title": "桑田若菜さんがNICOGRAPH International 2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "3d45eaf6b6fb9ba1b093b028ba3f1f311e5658b1458c3367dfee0b5b3e038141"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0901/index.md",
+      "sourceSha256": "e5ba3eb137353591ca8de70034c72ce21a58aa9f21cacc2ee5bd89342d7c16d1",
+      "slug": "2025-09-01-lab-news",
+      "date": "2025-09-01",
+      "title": "ファムフーロンさんの論文が電子情報信学会特集号論文誌に掲載されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/0912/index.md",
+      "sourceSha256": "0f82ef5330159b5436bf96238a4709929743733b555f920a7740b633bb3f154b",
+      "slug": "2025-09-12-dbws2025",
+      "date": "2025-09-12",
+      "title": "大島研のメンバーが東海関西DBWS2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img1.jpg",
+          "sha256": "ec0406003ec8d29b3f80012fc4d4ae462e1f3efaaec277ba69c7691d568647fe"
+        },
+        {
+          "name": "img2.jpg",
+          "sha256": "464158e7592741c3612c79aaa1549954e3117bf41b71451ad208bb196efd4233"
+        },
+        {
+          "name": "img3.jpg",
+          "sha256": "8da314cd0bc0d60281ecb4274d362ea873f244b3b3c936fd4aebc1261143d726"
+        },
+        {
+          "name": "img4.jpg",
+          "sha256": "4ebfc08785400b888eee4cdea8c7104d501f1f0ae06580e506a30bf00c80b9ee"
+        },
+        {
+          "name": "award1.jpg",
+          "sha256": "8a565be9871bdff94c4c26092b500cc1a3010f9876464c5eabcafc8a55a76600"
+        },
+        {
+          "name": "award2.jpg",
+          "sha256": "d626db9d5443fc885f02a607c83ade56ce9085f293586ecee7c2d4839ceb5a16"
+        },
+        {
+          "name": "featured.JPG",
+          "sha256": "667a9fc79689db4f15ab1511d7af6e6abec4c9bb36f0a23ce282555a6a45a96b"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/0918/index.md",
+      "sourceSha256": "0a7e165fec04b72a51d3242e7f44d04973bcebf3e6b5f88a81730e8d6f9369b1",
+      "slug": "2025-09-18-webdb",
+      "date": "2025-09-18",
+      "title": "大島研のメンバーがWebDB夏のワークショップ2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "presen_hashiguchi.jpg",
+          "sha256": "b02cd7d8d7d8f9142c90ad0a06d87bea3a0f66d0ac37f1259f42bd049097645d"
+        },
+        {
+          "name": "award_pham.jpg",
+          "sha256": "5519daca1438b98fb28f0402ff2a2348b90abec5d8a1d262af323c7319a7769c"
+        },
+        {
+          "name": "award_pham2.jpg",
+          "sha256": "82e84e5602821adf871a7dfdf5e8183d64d1eda479be1bfd065ba46db6af74ef"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "5b1454fa46e471b5b2b13cc68ab394586284dafa00cfe3ad9f2f874fb7bc374d"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/1010/index.md",
+      "sourceSha256": "44175c3476c852fae3b24f0a381250f9c866869af6f25bffadf5bbd59c8f0085",
+      "slug": "2025-10-10-lab-news",
+      "date": "2025-10-10",
+      "title": "B4が中間報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "img1.jpg",
+          "sha256": "46074b3d6350254294758a9826f2b5e76375c302d469b58d998403553fedee7c"
+        },
+        {
+          "name": "img2.jpg",
+          "sha256": "3712dcdb69b0a7d1010ecf2054f1e8fd51d09470cffa793bbde63a3e8526aad9"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "4c84492625af468ef26fcde1adca50ab1b0bf27c231d0153987763ca4004dc68"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/1031/index.md",
+      "sourceSha256": "2d2cec0b6f3eef38fc829858a70307103ed64f7e5e2ca47e697654a9ce611773",
+      "slug": "2025-10-31-lab-news",
+      "date": "2025-10-31",
+      "title": "M1が中間報告を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/1102/index.md",
+      "sourceSha256": "89b9ad7fcbaf9e35d4abaf126cd8726ed249ea81241971f4335f2573f3fbc15e",
+      "slug": "2025-11-02-lab-news",
+      "date": "2025-11-02",
+      "title": "大島研のメンバーが商大祭に出店しました！",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "poster.jpg",
+          "sha256": "06fe0bfc977e3d2de2ed52e8309928ce32245d7098d2b6c186f034c5fcca785e"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "f79010f2be37ccf4730849e66b97b3e69061705c1162b55b2fa593503fc3ceb4"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/1115/index.md",
+      "sourceSha256": "5a003e9c79afb102b20fe2e92f5472a55a0f711b657cb43c6ddff796af556de0",
+      "slug": "2025-11-15-lab-news",
+      "date": "2025-11-15",
+      "title": "大島研のメンバーが第77回EC研究発表会で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "nakayama.jpg",
+          "sha256": "0a9a9188e7967817f6a28ff89c5f3720fbff869d63a7cc154522e3fc802752bb"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "47b52c48959966113f52ef680d73cb337ce150bcfacad78ef99512c2a7953eab"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/1126/index.md",
+      "sourceSha256": "3d260875cc404873f9d48f024e6717840e755e74251c62d77e19c5dc5d2c264d",
+      "slug": "2025-11-26-idr",
+      "date": "2025-11-26",
+      "title": "大島研のメンバーがIDRユーザフォーラム 2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "85e0a7b7833d2ef0891aef76b063fef8eeae13a75c2ec91ddd9e804be6b67788"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2025/1201/index.md",
+      "sourceSha256": "16c82c481c9294ffb367cf59a010d97f7067f495347c79b8376f513f5628cf91",
+      "slug": "2025-12-01-lab-news",
+      "date": "2025-12-01",
+      "title": "ファムフーロンさんの論文が情報処理学会論文誌 Journal of Information Processing に掲載されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2025/1210/index.md",
+      "sourceSha256": "b4c3dcfeae8fda66b005c3489fa337e60068bbee27114b33ef3e73e3da6d0ae3",
+      "slug": "2025-12-10-iiwas",
+      "date": "2025-12-10",
+      "title": "木下真帆さんと桑田若菜さんがiiWAS/MoMM 2025で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "kinoshita.jpg",
+          "sha256": "342b7f751df7a75cf520026a064933121276b55d1fee9179a06d7aa786d96f6f"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "ec0c5a4f248cf7157b3ab411518688208857a37b24a81c11e68cf069d8346c84"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2026/0118/index.md",
+      "sourceSha256": "0fb35925b12d0114baa5e2c7daeb1b469117bc51dc6ef378b135c9800c29f5b4",
+      "slug": "2026-01-18-icsie-2026",
+      "date": "2026-01-18",
+      "title": "内藤洋輝さんがICSIE 2026で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "5bcea151d4def6f375029a2a90df422cf95f3d12e51924024567baab7db6466e"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2026/0201/index.md",
+      "sourceSha256": "193e0d88e46e98f6281b63c064a7872474adba120f1ca98179e19ffba9aa9a62",
+      "slug": "2025-12-12-lab-news",
+      "date": "2025-12-12",
+      "title": "ファムフーロンさんの論文が Journal of Information Processing に採録されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2026/0204/index.md",
+      "sourceSha256": "89fbc422e8a663a051e622fc7a17fef00fec98379273a520795029b4bef9a776",
+      "slug": "2026-02-04-lab-news",
+      "date": "2026-02-04",
+      "title": "B4が卒業研究報告会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2026/0205/index.md",
+      "sourceSha256": "7238a499022fb815ce8618dd731e2914383ba3903c8b621d6bca9a688fba3f24",
+      "slug": "2026-02-05-lab-news",
+      "date": "2026-02-05",
+      "title": "ファムフーロンさんの博士公聴会が実施されました",
+      "draft": false,
+      "missingImages": [],
+      "images": []
+    },
+    {
+      "source": "content/post/2026/0220/index.md",
+      "sourceSha256": "a58c03b9596403ba90648c7d82563a2b92940a3a53c5200e1fe412e4557b3d93",
+      "slug": "2026-02-20-lab-news",
+      "date": "2026-02-20",
+      "title": "M2が修士論文発表会で発表を行いました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "nishi.jpg",
+          "sha256": "0985520a80d1e100e595a262ff68f8d6ec7b7e6331bb695f7796bcdbefdbec8d"
+        },
+        {
+          "name": "yama.jpg",
+          "sha256": "2c6b6fdd75ff083fc8c4808901ba5223e56d1c2e0bad11eb3209be9692f642f3"
+        },
+        {
+          "name": "mon.jpg",
+          "sha256": "e205f9467af58c60e721ae7903a0001ee49c9a2c41bc322129a0b97f072c870d"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "0ac357d7b9f8ddc3a99f95efcdac556803e40a9476964687be20a7cd4976af16"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2026/0305/index.md",
+      "sourceSha256": "1306114de88f3f4dd4c870da0e7030877760972c75b3d7afe7c4b873abe09abf",
+      "slug": "2026-03-05-deim2026",
+      "date": "2026-03-05",
+      "title": "大島研のメンバーがDEIM2026で発表しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "nakanishi.jpg",
+          "sha256": "70a6ec56bf65cdc9f04cc87f2f318d999203b1fcba5d06182c049ca0ffb24174"
+        },
+        {
+          "name": "mon.jpg",
+          "sha256": "40680d498ed07f4985fe38d2fab5cee9c42b410feecd7924b0a800ec6756aa4b"
+        },
+        {
+          "name": "nakayama.jpg",
+          "sha256": "8ec93f7c459f577fc30d26c8f7f56dd6ed378eca02e4f983fa6cef26c9fcac30"
+        },
+        {
+          "name": "featured.jpg",
+          "sha256": "877287c5a79d6d88312f82a8a331ae51679c676b1b3afd8a6122e19831b3db90"
+        }
+      ]
+    },
+    {
+      "source": "content/post/2026/0324/index.md",
+      "sourceSha256": "6c77b8fb018c5686f219f4610b29e80d84a74e4029178a2bf77d80d81c0aaf9a",
+      "slug": "2026-03-24-lab-news",
+      "date": "2026-03-24",
+      "title": "桑田若菜さんが上河賞を受賞しました",
+      "draft": false,
+      "missingImages": [],
+      "images": [
+        {
+          "name": "featured.jpg",
+          "sha256": "f26500027998c03797101fcbc47b15ebe8d973d687205f15655b99f86dede26d"
+        }
+      ]
+    }
+  ]
+}

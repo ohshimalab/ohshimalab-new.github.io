@@ -8,8 +8,10 @@ draft: true
 
 ここに記事本文をMarkdownで記入します。
 
-このファイルを複製し、`YYYY-MM-DD-short-english-description.md` の形式で名前を付けてください。
-公開するときは、ファイル名と `publishedDate` の日付を一致させ、`draft` を `false` に変更します。
+このファイルを `src/content/posts/YYYY/YYYY-MM-DD-short-english-description/index.md` へ複製してください。
+公開するときは、記事フォルダー名と `publishedDate` の日付を一致させ、`draft` を `false` に変更します。
+画像は `index.md` と同じフォルダーに置き、`![画像の説明](./photo.jpg)` のように参照します。
+公開URLは `/posts/YYYY-MM-DD-short-english-description/` です。年のフォルダーはURLに含みません。
 
 ---
 
