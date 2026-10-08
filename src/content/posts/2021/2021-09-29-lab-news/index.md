@@ -5,6 +5,7 @@ publishedDate: "2021-09-29"
 tags:
   - 合同研究会
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![川嶋研究室、大島研究室、湯本研究室、山本研究室の4研究室で合同研究会を行いましたの写真](./featured.png)

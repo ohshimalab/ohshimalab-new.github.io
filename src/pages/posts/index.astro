@@ -1,28 +1,50 @@
 ---
+import PageHeader from '../../components/PageHeader.astro';
 import PostList from '../../components/PostList.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getVisiblePosts } from '../../utils/posts';
 
 const posts = await getVisiblePosts();
+const years = [...new Set(posts.map(post => post.data.publishedDate.getUTCFullYear()))];
+const groups = years.map(year => ({ year, posts: posts.filter(post => post.data.publishedDate.getUTCFullYear() === year) }));
 ---
 
 <BaseLayout title="記事 | 大島裕明研究室" description="大島裕明研究室からの記事・お知らせの一覧です。">
-	<header class="page-header">
-		<div class="container">
-			<p>Posts</p>
-			<h1>記事</h1>
-		</div>
-	</header>
+	<PageHeader label="Posts" title="記事" description="研究成果や学会発表、研究室の日々の活動をお知らせします。" id="posts-top" />
 	<section class="home-section">
 		<div class="container post-index">
-			<PostList {posts} />
+			<nav class="year-nav" aria-label="記事の年別目次">
+				<p>年から探す <span>全{posts.length}件</span></p>
+				<ul>{groups.map(group => <li><a href={`#posts-${group.year}`}>{group.year}<span>{group.posts.length}件</span></a></li>)}</ul>
+			</nav>
+			{groups.map(group => (
+				<section class="year-group" aria-labelledby={`posts-${group.year}`}>
+					<h2 id={`posts-${group.year}`}>{group.year}年<span>{group.posts.length}件</span></h2>
+					<PostList posts={group.posts} />
+					<a class="back-top" href="#posts-top">年別目次へ戻る ↑</a>
+				</section>
+			))}
+			{posts.length === 0 && <PostList {posts} />}
 		</div>
 	</section>
 </BaseLayout>
 
 <style>
-	.page-header { padding-block: clamp(3.5rem, 7vw, 5.5rem); background: var(--color-soft); text-align: center; }
-	.page-header p { margin: 0 0 0.3rem; color: var(--color-primary); font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
-	.page-header h1 { margin: 0; color: var(--color-heading); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; }
+
+
+
+
 	.post-index { max-width: 900px; }
+	.year-nav { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); }
+	.year-nav p { margin: 0 0 .75rem; color: var(--color-heading); font-size: .9rem; font-weight: 600; }
+	.year-nav p span { margin-left: 1rem; color: var(--color-muted); font-weight: 400; }
+	.year-nav ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; list-style: none; }
+	.year-nav a { display: flex; align-items: baseline; gap: .5rem; padding: .5rem .8rem; border: 1px solid var(--color-border); border-radius: .25rem; text-decoration: none; }
+	.year-nav a span { font-size: .75rem; color: var(--color-muted); }
+	.year-nav a:hover { background: var(--color-soft); }
+	.year-group + .year-group { margin-top: 3rem; }
+	.year-group h2 { margin: 0 0 1rem; scroll-margin-top: 7rem; font-size: 1.6rem; color: var(--color-heading); }
+	.year-group h2 span { margin-left: 1rem; font-size: .85rem; color: var(--color-muted); font-weight: 400; }
+	.back-top { display: block; width: fit-content; margin: 1rem 0 0 auto; font-size: .85rem; }
+	#posts-top { scroll-margin-top: 5rem; }
 </style>

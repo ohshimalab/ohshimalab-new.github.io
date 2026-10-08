@@ -5,6 +5,7 @@ publishedDate: "2024-02-21"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![ファムフーロンさんと桑田若菜さんがBigComp2024で発表しましたの写真](./featured.jpg)

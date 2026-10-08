@@ -5,6 +5,7 @@ publishedDate: "2023-12-01"
 tags:
   - ワークショップ
 draft: false
+thumbnail: ./featured.JPG
 ---
 
 ![津田裕哉さんがWISS2023でデモ＆ポスター発表を行いましたの写真](./featured.JPG)

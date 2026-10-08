@@ -5,6 +5,7 @@ publishedDate: "2020-07-31"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![松本直彰さんが第139回情報基礎とアクセス技術研究発表会で発表しましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2019-03-06"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![DEIM2019で発表しましたの写真](./featured.jpg)

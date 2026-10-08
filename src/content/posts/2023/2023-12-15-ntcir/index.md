@@ -5,6 +5,7 @@ publishedDate: "2023-12-15"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがThe 17th NTCIR Conferenceに参加しましたの写真](./featured.jpg)

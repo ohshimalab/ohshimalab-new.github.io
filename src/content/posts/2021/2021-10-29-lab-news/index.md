@@ -5,6 +5,7 @@ publishedDate: "2021-10-29"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![懇親会を行いました！の写真](./featured.jpg)

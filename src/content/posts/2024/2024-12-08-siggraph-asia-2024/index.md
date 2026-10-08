@@ -5,6 +5,7 @@ publishedDate: "2024-12-08"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![三林亮太さんがSIGGRAPH Asia 2024のReal-Time Live!でBEST OF SHOW AWARDを受賞しましたの写真](./featured.png)

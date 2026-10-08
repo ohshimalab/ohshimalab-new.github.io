@@ -5,6 +5,7 @@ publishedDate: "2023-11-17"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんが国際会議CMMR2023で発表を行いましたの写真](./featured.jpg)

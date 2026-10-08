@@ -5,6 +5,7 @@ publishedDate: "2021-09-17"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![松本直彰さんがDE/DBS/IFAT合同研究会で発表しましたの写真](./featured.png)

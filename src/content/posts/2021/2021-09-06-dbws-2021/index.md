@@ -5,6 +5,7 @@ publishedDate: "2021-09-06"
 tags:
   - ワークショップ
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![大島研のメンバーが東海関西DBWS 2021で発表しましたの写真](./featured.png)

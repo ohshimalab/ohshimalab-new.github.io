@@ -19,7 +19,7 @@ export const publicationGroups = [
 }).filter(group => group.papers.length);
 
 export function publicationDate(p: Publication) {
-  return `${p.year}年${p.month ? `${p.month}月` : ''}${p.day ? `${p.day}日` : ''}`;
+  return `${p.year}年${p.month ? `${p.month}月` : ''}`;
 }
 export function publicationDetails(p: Publication) {
   return [p.venue,

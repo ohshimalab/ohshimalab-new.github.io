@@ -5,6 +5,7 @@ publishedDate: "2022-07-15"
 tags:
   - 研究室
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがBBQをしましたの写真](./featured.jpg)

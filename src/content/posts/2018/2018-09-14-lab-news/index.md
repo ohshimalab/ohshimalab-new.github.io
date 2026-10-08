@@ -5,6 +5,7 @@ publishedDate: "2018-09-14"
 tags:
   - 大学内
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![第3回神戸情報科学キャンパスシンポジウム～の写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2023-03-23"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![追いコンをしましたの写真](./featured.jpg)

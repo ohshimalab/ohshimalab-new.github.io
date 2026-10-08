@@ -5,6 +5,7 @@ publishedDate: "2020-12-18"
 tags:
   - 学術講演
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんが WISS 2020 で発表しましたの写真](./featured.jpg)

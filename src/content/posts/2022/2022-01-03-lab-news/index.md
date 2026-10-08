@@ -5,6 +5,7 @@ publishedDate: "2022-01-03"
 tags:
   - ニュース
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんのラップ研究が日刊工業新聞に掲載されましたの写真](./featured.jpg)

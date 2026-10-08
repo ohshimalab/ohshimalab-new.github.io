@@ -5,6 +5,7 @@ publishedDate: "2026-03-24"
 tags:
   - 受賞
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![桑田若菜さんが上河賞を受賞しましたの写真](./featured.jpg)

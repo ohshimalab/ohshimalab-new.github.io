@@ -5,6 +5,7 @@ publishedDate: "2021-02-03"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![鬼は外、福は内の写真](./featured.jpg)

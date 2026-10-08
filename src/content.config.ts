@@ -13,13 +13,14 @@ const posts = defineCollection({
 			return filename === 'index' ? parts.pop()! : filename;
 		},
 	}),
-	schema: z.object({
+	schema: ({ image }) => z.object({
 		title: z.string(),
 		description: z.string(),
 		publishedDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
 		tags: z.array(z.string()).default([]),
 		draft: z.boolean().default(false),
+		thumbnail: image().optional(),
 	}),
 });
 

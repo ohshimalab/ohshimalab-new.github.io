@@ -5,6 +5,7 @@ publishedDate: "2022-03-04"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが追いコンをしましたの写真](./featured.jpg)

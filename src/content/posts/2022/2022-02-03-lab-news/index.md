@@ -5,6 +5,7 @@ publishedDate: "2022-02-03"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが豆まきをしましたの写真](./featured.jpg)

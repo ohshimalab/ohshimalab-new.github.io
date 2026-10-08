@@ -5,6 +5,7 @@ publishedDate: "2023-02-17"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![B4が卒業研究報告会で発表を行いましたの写真](./featured.jpg)

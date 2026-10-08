@@ -5,6 +5,7 @@ publishedDate: "2021-11-26"
 tags:
   - 研究室
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![運動の秋、大島研でフットサルをしましたの写真](./featured.jpg)

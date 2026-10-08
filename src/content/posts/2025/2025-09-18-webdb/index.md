@@ -5,6 +5,7 @@ publishedDate: "2025-09-18"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがWebDB夏のワークショップ2025で発表しましたの写真](./featured.jpg)

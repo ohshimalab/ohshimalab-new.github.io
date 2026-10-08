@@ -5,6 +5,7 @@ publishedDate: "2024-03-26"
 tags:
   - 受賞
 draft: false
+thumbnail: ./featured.JPG
 ---
 
 ![三林亮太さんが上河賞を受賞しましたの写真](./featured.JPG)

@@ -7,6 +7,7 @@ tags:
   - 他大学
   - 合同研究会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![甲南大灘本研，静岡大山本研，大島研合同研究会の写真](./featured.jpg)

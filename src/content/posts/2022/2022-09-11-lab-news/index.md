@@ -5,6 +5,7 @@ publishedDate: "2022-09-11"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが講座旅行に行ってきました！の写真](./featured.jpg)

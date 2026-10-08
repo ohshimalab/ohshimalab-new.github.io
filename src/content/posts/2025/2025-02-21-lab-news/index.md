@@ -5,6 +5,7 @@ publishedDate: "2025-02-21"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![M2が修士論文発表会で発表を行いましたの写真](./featured.jpg)

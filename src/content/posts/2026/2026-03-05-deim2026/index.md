@@ -5,6 +5,7 @@ publishedDate: "2026-03-05"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがDEIM2026で発表しましたの写真](./featured.jpg)

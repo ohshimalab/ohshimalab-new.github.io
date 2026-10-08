@@ -5,6 +5,7 @@ publishedDate: "2024-07-10"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんが未来の博士フェス 2024で発表しましたの写真](./featured.jpg)

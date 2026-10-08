@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
 import { sitePath } from '../utils/paths';
 
 interface Props {
@@ -19,10 +20,17 @@ const dateFormatter = new Intl.DateTimeFormat('ja-JP', {
 	<ul class="post-list">
 		{posts.map((post) => (
 			<li>
-				<a href={sitePath(`posts/${post.id}/`)}>
+				<a href={sitePath(`posts/${post.id}/`)} class:list={{ 'has-thumbnail': !!post.data.thumbnail }}>
+					<div class="post-list__text">
 					<time datetime={post.data.publishedDate.toISOString()}>{dateFormatter.format(post.data.publishedDate)}</time>
 					<h3>{post.data.title} {post.data.draft && <span class="draft-badge">下書き</span>}</h3>
 					<p>{post.data.description}</p>
+					</div>
+					{post.data.thumbnail && (
+						<div class="post-list__thumbnail">
+							<Image src={post.data.thumbnail} alt="" width={200} widths={[200, 400]} sizes="(max-width: 38rem) 96px, 160px" format="webp" loading="lazy" decoding="async" />
+						</div>
+					)}
 				</a>
 			</li>
 		))}
@@ -37,17 +45,23 @@ const dateFormatter = new Intl.DateTimeFormat('ja-JP', {
 <style>
 	.post-list { margin: 0; padding: 0; border-top: 1px solid var(--color-border); list-style: none; }
 	.post-list li { border-bottom: 1px solid var(--color-border); }
-	.post-list a { display: grid; grid-template-columns: 9rem 1fr; gap: 0.15rem 2rem; padding: 1.6rem 0; color: var(--color-heading); text-decoration: none; }
-	.post-list time { grid-row: 1 / 3; color: var(--color-muted); font-size: 0.88rem; }
+	.post-list a { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; gap: 1.5rem; padding: 1.6rem 0; color: var(--color-heading); text-decoration: none; }
+	.post-list a.has-thumbnail { grid-template-columns: minmax(0, 1fr) 160px; }
+	.post-list__text { min-width: 0; overflow-wrap: anywhere; }
+	.post-list time { display: block; margin-bottom: .35rem; color: var(--color-muted); font-size: 0.88rem; }
+	.post-list__thumbnail { aspect-ratio: 4 / 3; overflow: hidden; border-radius: .25rem; background: var(--color-soft); }
+	.post-list__thumbnail :global(img) { display: block; width: 100%; height: 100%; object-fit: contain; }
 	.post-list h3 { margin: 0; font-size: 1.12rem; font-weight: 500; }
 	.draft-badge { display: inline-block; margin-left: 0.5rem; padding: 0.12rem 0.45rem; color: #8a4b08; background: #fff0d5; border: 1px solid #e7c68f; border-radius: 0.2rem; font-size: 0.7rem; font-weight: 600; vertical-align: 0.15em; }
 	.post-list p { margin: 0.2rem 0 0; color: var(--color-body); font-size: 0.94rem; }
 	.post-list a:hover h3 { color: var(--color-primary); }
+	.post-list a:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 4px; }
 	.empty-state { padding: 2.75rem 1rem; text-align: center; border-block: 1px solid var(--color-border); }
 	.empty-state p { margin: 0 0 0.25rem; color: var(--color-heading); font-size: 1.08rem; }
 	.empty-state small { color: var(--color-muted); }
 	@media (max-width: 38rem) {
-		.post-list a { grid-template-columns: 1fr; gap: 0.35rem; }
-		.post-list time { grid-row: auto; }
+		.post-list a { gap: 1rem; padding-block: 1.25rem; }
+		.post-list a.has-thumbnail { grid-template-columns: minmax(0, 1fr) 96px; }
+		.post-list h3 { font-size: 1rem; }
 	}
 </style>

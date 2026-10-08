@@ -5,6 +5,7 @@ publishedDate: "2025-03-14"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんがNLP2025で発表しましたの写真](./featured.jpg)

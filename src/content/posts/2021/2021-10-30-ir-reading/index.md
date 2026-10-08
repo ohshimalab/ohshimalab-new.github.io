@@ -5,6 +5,7 @@ publishedDate: "2021-10-30"
 tags:
   - 勉強会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![IR Readingに参加しましたの写真](./featured.jpg)

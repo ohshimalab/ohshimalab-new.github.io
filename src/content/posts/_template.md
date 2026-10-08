@@ -4,6 +4,8 @@ description: 記事一覧や検索結果に表示する短い説明を記入し�
 publishedDate: 2026-09-01
 tags: []
 draft: true
+# 一覧に画像を表示する場合、次の行を有効にして画像ファイル名を指定します。
+# thumbnail: ./photo.jpg
 ---
 
 ここに記事本文をMarkdownで記入します。

@@ -5,6 +5,7 @@ publishedDate: "2021-11-22"
 tags:
   - 国内学会
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![王丹さんがIDRユーザフォーラム 2021で発表しましたの写真](./featured.png)

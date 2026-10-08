@@ -5,6 +5,7 @@ publishedDate: "2021-03-24"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![卒業生を送る会の写真](./featured.jpg)

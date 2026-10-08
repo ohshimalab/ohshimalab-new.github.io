@@ -5,6 +5,7 @@ publishedDate: "2025-06-21"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![桑田若菜さんがNICOGRAPH International 2025で発表しましたの写真](./featured.jpg)

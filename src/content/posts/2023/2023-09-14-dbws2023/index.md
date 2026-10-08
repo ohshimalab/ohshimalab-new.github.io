@@ -5,6 +5,7 @@ publishedDate: "2023-09-14"
 tags:
   - ワークショップ
 draft: false
+thumbnail: ./featured.JPG
 ---
 
 ![大島研のメンバーが東海関西DBWS2023で発表しましたの写真](./featured.JPG)

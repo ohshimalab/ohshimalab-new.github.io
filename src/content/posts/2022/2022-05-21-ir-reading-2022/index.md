@@ -5,6 +5,7 @@ publishedDate: "2022-05-21"
 tags:
   - 勉強会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがIR Reading 2022春に参加しましたの写真](./featured.jpg)

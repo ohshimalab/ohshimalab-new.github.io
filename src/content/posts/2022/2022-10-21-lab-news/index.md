@@ -5,6 +5,7 @@ publishedDate: "2022-10-21"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがB4の大学院入試合格をお祝いするBBQを開催しました！の写真](./featured.jpg)

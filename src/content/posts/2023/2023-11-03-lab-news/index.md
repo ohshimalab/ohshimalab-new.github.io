@@ -5,6 +5,7 @@ publishedDate: "2023-11-03"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが商大祭に出店と展示を行いました！の写真](./featured.jpg)

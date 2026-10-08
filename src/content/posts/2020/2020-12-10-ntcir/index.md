@@ -5,6 +5,7 @@ publishedDate: "2020-12-10"
 tags:
   - 国際学会発表
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![吉村さんと三林さんがThe 15th NTCIR Conferenceで発表しましたの写真](./featured.png)

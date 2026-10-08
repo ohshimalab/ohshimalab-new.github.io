@@ -5,6 +5,7 @@ publishedDate: "2022-03-15"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが商科キャンパスで新研究室を立ち上げましたの写真](./featured.jpg)

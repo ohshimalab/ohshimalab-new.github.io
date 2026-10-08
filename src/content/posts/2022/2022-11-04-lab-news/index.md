@@ -5,6 +5,7 @@ publishedDate: "2022-11-04"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![M1が研究中間報告会で発表しましたの写真](./featured.jpg)

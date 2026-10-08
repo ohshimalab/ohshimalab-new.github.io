@@ -5,6 +5,7 @@ publishedDate: "2022-06-22"
 tags:
   - 研究室
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 #### 日時：2022年6月22日（水）

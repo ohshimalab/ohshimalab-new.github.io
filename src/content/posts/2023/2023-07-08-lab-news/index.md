@@ -5,6 +5,7 @@ publishedDate: "2023-07-08"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがACM SIGMOD日本支部第82回支部大会で国際会議報告を行いましたの写真](./featured.jpg)

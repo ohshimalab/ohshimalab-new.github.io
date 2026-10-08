@@ -5,6 +5,7 @@ publishedDate: "2024-11-09"
 tags:
   - 勉強会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがIR Reading 2024秋に参加しましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2025-12-10"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![木下真帆さんと桑田若菜さんがiiWAS/MoMM 2025で発表しましたの写真](./featured.jpg)

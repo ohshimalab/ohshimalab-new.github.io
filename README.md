@@ -1,5 +1,7 @@
 # 大島研究室 Astroサイト
 
+記事を追加・更新する方は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。画像・サムネイル・年別表示・公開方法と、よくある質問をまとめています。
+
 プロジェクトの目的と設計方針は [docs/project-overview.md](docs/project-overview.md)、現在の進捗と保留事項は [docs/development-status.md](docs/development-status.md) を参照してください。
 
 このREADMEの以下の内容は、Astro標準テンプレートの開発コマンド・構成説明です。

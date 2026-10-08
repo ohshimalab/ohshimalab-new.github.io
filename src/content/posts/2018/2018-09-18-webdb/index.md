@@ -5,6 +5,7 @@ publishedDate: "2018-09-18"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![WebDB Forum 2018において楽天株式会社賞・学生奨励賞を受賞の写真](./featured.jpg)

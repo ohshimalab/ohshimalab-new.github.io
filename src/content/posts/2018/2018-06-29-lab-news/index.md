@@ -5,6 +5,7 @@ publishedDate: "2018-06-29"
 tags:
   - 研究室内
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![Newホワイトボード！の写真](./featured.jpg)

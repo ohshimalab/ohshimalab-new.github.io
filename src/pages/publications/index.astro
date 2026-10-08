@@ -1,17 +1,19 @@
 ---
+import PageHeader from '../../components/PageHeader.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { researchProfiles } from '../../data/research-profiles';
 import { publicationGroups, publicationDate, publicationDetails, publicationLinks } from '../../data/publications';
 const total = publicationGroups.reduce((sum, group) => sum + group.papers.length, 0);
 const years = publicationGroups.flatMap(group => group.years.map(entry => entry.year));
 ---
 <BaseLayout title="研究成果 | 大島裕明研究室" description="大島裕明研究室の論文誌・国際会議・国内会議の研究成果。発表年ごとの一覧と論文へのリンクを掲載しています。">
-  <header class="page-header" id="publications-top">
-    <div class="container">
-      <p class="eyebrow">Publications</p><h1>研究成果</h1>
-      <p class="intro">論文誌・国際会議・国内会議で発表した研究成果を紹介します。</p>
-      <p class="summary">{Math.min(...years)}–{Math.max(...years)} <span>／</span> 全{total}件</p>
-    </div>
-  </header>
+  <PageHeader label="Publications" title="研究成果" description="論文誌・国際会議・国内会議で発表した研究成果を紹介します。" id="publications-top">
+    <p class="summary">{Math.min(...years)}–{Math.max(...years)} <span>／</span> 全{total}件</p>
+    <nav class="research-profile-links" aria-label="大島裕明の研究者情報">
+      <span>大島裕明の研究者情報</span>
+      <ul>{researchProfiles.map(profile => <li><a href={profile.url} target="_blank" rel="noopener noreferrer">{profile.label}<span aria-hidden="true"> ↗</span></a></li>)}</ul>
+    </nav>
+  </PageHeader>
   <div class="container publications-layout">
     <aside><nav class="contents" aria-label="研究成果の分類">
       <p class="contents-label">研究成果一覧</p>
@@ -35,7 +37,7 @@ const years = publicationGroups.flatMap(group => group.years.map(entry => entry.
                     <span>{publicationDate(paper)}</span>
                     {paper.reviewed !== null && <span class="review">{paper.reviewed ? '査読あり' : '査読なし'}</span>}
                     {paper.invited && <span class="review">招待</span>}
-                    {publicationLinks(paper).map(link => <a href={link.url} aria-label={`${paper.title}：${link.label}`}>{link.label}<span aria-hidden="true"> ↗</span></a>)}
+                    {publicationLinks(paper).map(link => <a href={link.url} target={link.label === 'DOI' ? '_blank' : undefined} rel={link.label === 'DOI' ? 'noopener noreferrer' : undefined} aria-label={`${paper.title}：${link.label}${link.label === 'DOI' ? '（新しいタブで開く）' : ''}`}>{link.label}<span aria-hidden="true"> ↗</span></a>)}
                   </div>
                   {paper.award && <p class="award">{paper.award}</p>}
                 </li>
@@ -49,10 +51,12 @@ const years = publicationGroups.flatMap(group => group.years.map(entry => entry.
   </div>
 </BaseLayout>
 <style>
-  .page-header { padding-block: clamp(3rem, 6vw, 5rem); background: var(--color-soft); border-bottom: 1px solid var(--color-border); }
+  .research-profile-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; margin-top: 1rem; font-size: .8rem; }
+  .research-profile-links > span { color: var(--color-muted); }
+  .research-profile-links ul { display: flex; flex-wrap: wrap; gap: .4rem 1rem; list-style: none; margin: 0; padding: 0; }
+  .research-profile-links a { text-decoration: none; }
+  .research-profile-links a:hover { text-decoration: underline; }
   .eyebrow { margin: 0 0 .5rem; color: var(--color-primary-dark); font-size: .78rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
-  h1 { margin: 0; color: var(--color-heading); font-size: clamp(2rem, 5vw, 3rem); font-weight: 500; }
-  .intro { margin: 1rem 0; }
   .summary { margin: 1.5rem 0 0; font-size: .88rem; font-variant-numeric: tabular-nums; }
   .summary span { margin-inline: .7rem; }
   .publications-layout { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: clamp(2rem, 5vw, 4rem); padding-block: 3rem 5rem; }
@@ -96,6 +100,5 @@ const years = publicationGroups.flatMap(group => group.years.map(entry => entry.
     .publications-layout { display: block; }
     aside, .year-nav, .back-top { display: none; }
     ol li { break-inside: avoid; }
-    .page-header { padding-block: 1rem; }
   }
 </style>

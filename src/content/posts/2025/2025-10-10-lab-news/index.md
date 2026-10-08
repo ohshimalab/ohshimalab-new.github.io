@@ -5,6 +5,7 @@ publishedDate: "2025-10-10"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![B4が中間報告を行いましたの写真](./featured.jpg)

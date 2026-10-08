@@ -5,6 +5,7 @@ publishedDate: "2021-12-27"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![年末ゲーム忘年会をしましたの写真](./featured.jpg)

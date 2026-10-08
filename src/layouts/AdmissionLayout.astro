@@ -1,0 +1,18 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+interface Props { frontmatter: { title: string; description: string } }
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={`${frontmatter.title} | 大島裕明研究室`} description={frontmatter.description}>
+	<PageHeader label="Admission" title={frontmatter.title} description={frontmatter.description} />
+	<div class="container admission-content"><slot /></div>
+</BaseLayout>
+<style>
+	.admission-content { max-width: 900px; padding-block: clamp(3rem, 6vw, 5rem); overflow-wrap: anywhere; }
+	.admission-content :global(h2) { margin: 3rem 0 1rem; color: var(--color-heading); font-size: 1.6rem; font-weight: 500; scroll-margin-top: 6rem; }
+	.admission-content :global(h2:first-child) { margin-top: 0; }
+	.admission-content :global(h3) { margin: 2rem 0 .75rem; color: var(--color-heading); font-size: 1.15rem; }
+	.admission-content :global(p) { margin-block: 1rem; }
+	.admission-content :global(iframe) { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; margin-block: 1.5rem; }
+</style>

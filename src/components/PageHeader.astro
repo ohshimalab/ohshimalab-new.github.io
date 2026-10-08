@@ -1,0 +1,26 @@
+---
+interface Props {
+	title: string;
+	label: string;
+	description: string;
+	id?: string;
+}
+const { title, label, description, id } = Astro.props;
+---
+
+<header class="page-header" id={id}>
+	<div class="container">
+		<p class="page-header__label">{label}</p>
+		<h1>{title}</h1>
+		<p class="page-header__description">{description}</p>
+		<slot />
+	</div>
+</header>
+
+<style>
+	.page-header { padding-block: clamp(3rem, 6vw, 5rem); background: var(--color-soft); border-bottom: 1px solid var(--color-border); text-align: left; scroll-margin-top: 5rem; }
+	.page-header__label { margin: 0 0 .5rem; color: var(--color-primary-dark); font-size: .78rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
+	h1 { margin: 0; color: var(--color-heading); font-size: clamp(2rem, 5vw, 3rem); font-weight: 500; line-height: 1.3; }
+	.page-header__description { max-width: 48rem; margin: 1rem 0 0; color: var(--color-body); line-height: 1.8; }
+	@media print { .page-header { padding-block: 1rem; } }
+</style>

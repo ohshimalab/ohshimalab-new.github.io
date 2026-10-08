@@ -5,6 +5,7 @@ publishedDate: "2025-11-26"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがIDRユーザフォーラム 2025で発表しましたの写真](./featured.jpg)

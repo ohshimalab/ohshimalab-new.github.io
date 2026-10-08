@@ -5,6 +5,7 @@ publishedDate: "2024-08-29"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島先生が研究室紹介を行いましたの写真](./featured.jpg)

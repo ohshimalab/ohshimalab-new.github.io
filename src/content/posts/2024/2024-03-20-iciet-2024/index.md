@@ -5,6 +5,7 @@ publishedDate: "2024-03-20"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.PNG
 ---
 
 ![西本海生さんがICIET 2024で発表しましたの写真](./featured.PNG)

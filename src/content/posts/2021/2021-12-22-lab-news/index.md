@@ -5,6 +5,7 @@ publishedDate: "2021-12-22"
 tags:
   - 合同研究会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![12月の4研究室合同研究会の写真](./featured.jpg)

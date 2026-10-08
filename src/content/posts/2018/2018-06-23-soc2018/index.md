@@ -5,6 +5,7 @@ publishedDate: "2018-06-23"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![SoC2018において学生奨励賞を受賞の写真](./featured.jpg)

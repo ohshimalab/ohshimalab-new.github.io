@@ -5,6 +5,7 @@ publishedDate: "2023-02-03"
 tags:
   - 研究室
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが節分イベントを行いました！の写真](./featured.jpg)

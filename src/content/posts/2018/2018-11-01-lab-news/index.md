@@ -5,6 +5,7 @@ publishedDate: "2018-11-01"
 tags:
   - 研究室内
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![デスクがやってきました！の写真](./featured.jpg)

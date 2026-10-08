@@ -5,6 +5,7 @@ publishedDate: "2022-03-02"
 tags:
   - 学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがDEIM2022で発表しましたの写真](./featured.jpg)

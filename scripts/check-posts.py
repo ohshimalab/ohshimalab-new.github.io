@@ -11,6 +11,7 @@ class Page(HTMLParser):
         super().__init__()
         self.links = []
         self.images = []
+        self.image_attrs = []
         self.text = []
         self.feed(text)
 
@@ -20,6 +21,7 @@ class Page(HTMLParser):
             self.links.append(attrs['href'])
         if tag == 'img':
             self.images.append(attrs['src'])
+            self.image_attrs.append(attrs)
 
     def handle_data(self, data):
         self.text.append(data)
@@ -53,4 +55,16 @@ for html in Path('dist/posts').rglob('index.html'):
         target = Path('dist') / route if parsed.path.startswith('/') else html.parent / route
         assert target.is_file() or (target / 'index.html').is_file(), (html, url)
 assert len(list(Path('dist/posts').glob('*/index.html'))) == 130
+thumbnails = [p for p in Path('src/content/posts').rglob('index.md') if '\nthumbnail:' in p.read_text(encoding='utf-8')]
+assert len(index.images) == len(thumbnails), (len(index.images), len(thumbnails))
+for image in index.image_attrs:
+    assert 'alt' in image and not image['alt'] and image['loading'] == 'lazy'
+    # Astro caps candidates at the original width instead of enlarging small images.
+    widths = [int(candidate.strip().split()[1].removesuffix('w')) for candidate in image['srcset'].split(',')]
+    assert widths and all(0 < width <= 400 for width in widths), image
+    for candidate in image['srcset'].split(','):
+        url = candidate.strip().split()[0]
+        target = Path('dist') / unquote(url).removeprefix('/ohshimalab-new.github.io/')
+        assert target.is_file(), url
+print(f'Verified: {len(thumbnails)} thumbnails with responsive images and lazy loading')
 print(f'Verified: {len(records)} migrated articles, {image_count} source images, 130 article routes and local image/link targets')

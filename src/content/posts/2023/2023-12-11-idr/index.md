@@ -5,6 +5,7 @@ publishedDate: "2023-12-11"
 tags:
   - ワークショップ
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![芦澤亜里紗さんと中山裕紀さんがIDRユーザフォーラム 2023で発表を行いましたの写真](./featured.jpg)

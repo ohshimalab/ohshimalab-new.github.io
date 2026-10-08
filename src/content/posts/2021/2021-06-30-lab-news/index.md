@@ -5,6 +5,7 @@ publishedDate: "2021-06-30"
 tags:
   - 合同研究会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![川嶋研、大島研、湯本研、山本研の合同研究会の写真](./featured.jpg)

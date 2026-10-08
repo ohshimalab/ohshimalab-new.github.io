@@ -5,6 +5,7 @@ publishedDate: "2025-03-25"
 tags:
   - 学位記授与式
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが卒業・修了しましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2023-05-26"
 tags:
   - プロジェクト
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんが未踏スーパークリエータに認定されましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2022-07-06"
 tags:
   - 国際学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![三林亮太さんと王丹さんがAAI2022で発表しましたの写真](./featured.jpg)

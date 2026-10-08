@@ -5,6 +5,7 @@ publishedDate: "2018-12-07"
 tags:
   - オープン
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![企業実践的ＡＩ（人工知能）利活用研究会 リレーセミナーの写真](./featured.jpg)

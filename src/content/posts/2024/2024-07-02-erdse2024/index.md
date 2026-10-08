@@ -5,6 +5,7 @@ publishedDate: "2024-07-02"
 tags:
   - ワークショップ
 draft: false
+thumbnail: ./featured.JPG
 ---
 
 ![大島研のメンバーがERDSE2024で発表しましたの写真](./featured.JPG)

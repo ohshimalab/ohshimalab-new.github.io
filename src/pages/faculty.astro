@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { sitePath } from '../utils/paths';
+import { researchProfiles } from '../data/research-profiles';
 
 const researchAreas = [
 	{
@@ -95,11 +96,7 @@ const relatedFields = ['データベース', '機械学習', '自然言語処理
 				<h2 id="research-profiles-heading">研究者情報</h2>
 			</div>
 			<ul>
-				<li><a href="https://scholar.google.com/citations?user=Bt6EL7MAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar<span aria-hidden="true"> ↗</span></a></li>
-				<li><a href="https://www.semanticscholar.org/author/H.-Ohshima/1698449" target="_blank" rel="noopener noreferrer">Semantic Scholar<span aria-hidden="true"> ↗</span></a></li>
-				<li><a href="https://dblp.org/pid/88/85.html" target="_blank" rel="noopener noreferrer">DBLP<span aria-hidden="true"> ↗</span></a></li>
-				<li><a href="https://orcid.org/0000-0002-9492-2246" target="_blank" rel="noopener noreferrer">ORCID<span aria-hidden="true"> ↗</span></a></li>
-				<li><a href="https://researchmap.jp/hohshima/" target="_blank" rel="noopener noreferrer">researchmap<span aria-hidden="true"> ↗</span></a></li>
+				{researchProfiles.map(profile => <li><a href={profile.url} target="_blank" rel="noopener noreferrer">{profile.label}<span aria-hidden="true"> ↗</span></a></li>)}
 			</ul>
 		</section>
 	</div>

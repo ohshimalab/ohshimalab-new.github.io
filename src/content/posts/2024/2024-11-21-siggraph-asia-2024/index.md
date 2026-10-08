@@ -5,6 +5,7 @@ publishedDate: "2024-11-21"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.png
 ---
 
 ![三林亮太さんの研究がSIGGRAPH Asia 2024のReal-Time Live!に採録されましたの写真](./featured.png)

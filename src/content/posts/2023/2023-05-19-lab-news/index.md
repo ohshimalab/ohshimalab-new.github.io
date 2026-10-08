@@ -5,6 +5,7 @@ publishedDate: "2023-05-19"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![新入生歓迎会を行いましたの写真](./featured.jpg)

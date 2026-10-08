@@ -5,6 +5,7 @@ publishedDate: "2019-09-23"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![高橋さんがDE/DBS/IFAT合同研究会で発表しましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2022-08-17"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが研究室内の大掃除を行いました！の写真](./featured.jpg)

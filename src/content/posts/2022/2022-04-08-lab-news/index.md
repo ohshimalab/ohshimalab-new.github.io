@@ -5,6 +5,7 @@ publishedDate: "2022-04-08"
 tags:
   - 研究会
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが新学期の第1回研究会を行いました。の写真](./featured.jpg)

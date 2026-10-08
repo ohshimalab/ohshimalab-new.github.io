@@ -5,6 +5,7 @@ publishedDate: "2024-09-24"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーがプチDBWS2024で発表しましたの写真](./featured.jpg)

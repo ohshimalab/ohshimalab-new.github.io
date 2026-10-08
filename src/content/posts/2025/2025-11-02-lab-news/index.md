@@ -5,6 +5,7 @@ publishedDate: "2025-11-02"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが商大祭に出店しました！の写真](./featured.jpg)

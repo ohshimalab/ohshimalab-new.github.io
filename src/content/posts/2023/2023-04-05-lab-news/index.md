@@ -5,6 +5,7 @@ publishedDate: "2023-04-05"
 tags:
   - イベント
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![お花見をしましたの写真](./featured.jpg)

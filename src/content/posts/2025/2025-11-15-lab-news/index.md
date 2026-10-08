@@ -5,6 +5,7 @@ publishedDate: "2025-11-15"
 tags:
   - 発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研のメンバーが第77回EC研究発表会で発表しましたの写真](./featured.jpg)

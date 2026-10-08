@@ -5,6 +5,7 @@ publishedDate: "2026-01-18"
 tags:
   - 国際会議
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![内藤洋輝さんがICSIE 2026で発表しましたの写真](./featured.jpg)

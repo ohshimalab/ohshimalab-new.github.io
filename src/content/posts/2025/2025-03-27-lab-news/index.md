@@ -5,6 +5,7 @@ publishedDate: "2025-03-27"
 tags:
   - 受賞
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![ファムフーロンさんが上河賞を受賞しましたの写真](./featured.jpg)

@@ -5,6 +5,7 @@ publishedDate: "2021-07-16"
 tags:
   - 国際学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![濵島 聡一郎さんが AAI 2021 で発表しましたの写真](./featured.jpg)

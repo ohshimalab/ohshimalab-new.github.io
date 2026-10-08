@@ -5,6 +5,7 @@ publishedDate: "2019-09-23"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![村本さん、ラビンさん、吉井さんが「2019年度 情報処理学会関西支部 支部大会で発表しましたの写真](./featured.jpg)

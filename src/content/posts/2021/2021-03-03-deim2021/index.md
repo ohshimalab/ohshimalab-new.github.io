@@ -5,6 +5,7 @@ publishedDate: "2021-03-03"
 tags:
   - 国内学会発表
 draft: false
+thumbnail: ./featured.jpg
 ---
 
 ![大島研究室のメンバーがDEIM2021で発表しましたの写真](./featured.jpg)
